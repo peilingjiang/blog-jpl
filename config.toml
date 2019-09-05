@@ -1,0 +1,9 @@
+baseURL = "http://blog.jpl.design"
+languageCode = "en-us"
+title = "JPL"
+theme = "journal"
+
+[params]
+description = "Blog for Peiling Jiang's works."
+githubUsername = "peilingjiang"
+tagline = "NYU | IMA | Pei-Ling Jiang"
