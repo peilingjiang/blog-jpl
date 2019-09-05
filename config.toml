@@ -1,9 +1,15 @@
 baseURL = "http://blog.jpl.design"
 languageCode = "en-us"
 title = "JPL"
-theme = "journal"
+theme = "book"
 
-[params]
 description = "Blog for Peiling Jiang's works."
-githubUsername = "peilingjiang"
+
+# githubUsername = "peilingjiang"
+BookRepo = "https://github.com/peilingjiang"
 tagline = "NYU | IMA | Pei-Ling Jiang"
+
+# BookMenuBundle = '/menu'
+BookMenuBundleActiveLinkColor = '\#00d1ff'
+BookSearch = true
+enableGitInfo = true
