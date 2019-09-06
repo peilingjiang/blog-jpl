@@ -1,5 +1,5 @@
 baseURL = 'https://blog.jpl.design'
-title = 'JPL'
+title = 'JPL BLOG'
 theme = 'book'
 disableKinds = ['taxonomy', 'taxonomyTerm']
 # themesDir = '../..'
