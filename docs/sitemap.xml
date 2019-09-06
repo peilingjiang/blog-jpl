@@ -3,15 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://blog.jpl.design/</loc>
+    <loc>https://blog.jpl.design/posts/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.jpl.design/categories/</loc>
+    <loc>https://blog.jpl.design/posts/intro-to-physical-computing/something-about-computer/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.jpl.design/tags/</loc>
+    <loc>https://blog.jpl.design/docs/intro/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.jpl.design/docs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.jpl.design/</loc>
+    <lastmod>2019-09-05T00:13:41-04:00</lastmod>
   </url>
   
 </urlset>

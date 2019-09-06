@@ -1,6 +1,8 @@
 ---
-title: About
+title: Home
+headless: true
 type: docs
+bookToc: false
 ---
 
 # JPL is 江沛嶺. 江沛嶺 is Peiling Jiang.

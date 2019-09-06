@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on JPL</title>
-    <link>https://blog.jpl.design/</link>
-    <description>Recent content in Home on JPL</description>
+    <title>Posts on JPL</title>
+    <link>https://blog.jpl.design/posts/</link>
+    <description>Recent content in Posts on JPL</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.jpl.design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.jpl.design/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -16,16 +17,6 @@
       
       <guid>https://blog.jpl.design/posts/intro-to-physical-computing/something-about-computer/</guid>
       <description>Prototyping CS The most profound technologies are those that disappear. [1] This line’s coming from Mark Weiser’s The Computer for the 21st Century. The article from almost 30 years ago opened my eyes to the realm of computing with bringing up Virtual Reality and the “Pad” that you can grab and use anywhere. We never question writing, math, or other information technologies, nor the necessity of their education. We don’t notice them.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://blog.jpl.design/docs/intro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jpl.design/docs/intro/</guid>
-      <description> author: &amp;ldquo;Peiling Jiang&amp;rdquo; date: &amp;ldquo;0000-00-00&amp;rdquo; title: tags = [&amp;ldquo;&amp;rdquo;, &amp;ldquo;&amp;rdquo;]
-categories = [&amp;ldquo;&amp;rdquo;, &amp;ldquo;&amp;rdquo;] </description>
     </item>
     
   </channel>
