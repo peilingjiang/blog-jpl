@@ -4,7 +4,11 @@ date: "2019-09-05"
 title: Something About Computer
 tags: ["IMA", "Fall19"]
 categories: ["Reading"]
+type: docs
+bookToc: true
 ---
+
+# Something About Computer
 
 ## Prototyping CS
 The most profound technologies are those that disappear. [1] This line comes from Mark Weiser’s _The Computer for the 21st Century_. The article from almost 30 years ago opened my eyes to the realm of computing with bringing up Virtual Reality and the “Pad” that you can grab and use anywhere. We never question writing, math, or other information technologies, nor the necessity of their education. We don’t notice them. They are simplified and compiled in ways that are so natural, ubiquitous, accessible for everyone, and thus as invisible as air. In consequence, the industry of computer science, as the driving force of the development of computing, should still be a promising industry for another decade. Since we’re still prototyping it.
