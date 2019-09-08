@@ -5,10 +5,21 @@
     <link>https://blog.jpl.design/posts/</link>
     <description>Recent content in Posts on JPL BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 07 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.jpl.design/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eye 101</title>
+      <link>https://blog.jpl.design/posts/intro-to-physical-computing/eye-101/</link>
+      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/intro-to-physical-computing/eye-101/</guid>
+      <description>Eye 101  If you want to know more about how to make fake lashes from copper tape, keep reading : )
+ When asked to make a switch, the first thing came into my mind was EYE - the hard-working switch turning on and off, or in other words, blinking, for 1,4000 times a day.
+Current blink detection methods rely on CV. How could we, as physical computing beginners, use simple physical hacks to interpret this slight movement into analog signal?</description>
+    </item>
     
     <item>
       <title>I, Avatar</title>

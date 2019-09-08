@@ -16,13 +16,13 @@ Here I used Fuse _(beta)_ and Kapu, a newly released app by Tencent (the largest
 
 ## KAPU
 
-<!-- img src="/i-avatar/kapu_icon.png" alt="Kapu Icon" width="70rem" style="float:right" -->
+<!-- img src="/performative-avatar/i-avatar/kapu_icon.png" alt="Kapu Icon" width="70rem" style="float:right" -->
 
 As the visual character making [iOS app](https://apps.apple.com/us/app/卡噗/id1462848061) for the instant message tool QQ (targeting younger generations), Kapu is social oriented, infantilized, and silly in some perspectives. It's not for any serious sculpting, but minimizing the making process by preset designs and limited adjustable features. Authenticity is the least to be considered in this [ACG](https://en.wikipedia.org/wiki/ACG_(subculture)) world. But honestly, the process is quite playful and pleasing, with several features worth mentioning:
 
 <br>
 
-{{< figure src="/i-avatar/kapu_showcase.jpg" alt="Kapu Showcase" width="100%" >}}
+{{< figure src="/performative-avatar/i-avatar/kapu_showcase.jpg" alt="Kapu Showcase" width="100%" >}}
 
 <br>
 
@@ -30,20 +30,20 @@ As the visual character making [iOS app](https://apps.apple.com/us/app/卡噗/id
 
 Every time the user switch back to the character page, (it)'ll maniacally wave Hi to you with exaggerate gestures. Unlike traditional static Avatar making software, the whole process is more like an interactive game instead of a tedious sculpting work with the embedded motion features. While waving seems childish, corresponding feedback after the user changes a particular part helps highlight the adjustment and strengthen the "gaming" experience. For example, a blink after choosing an eye type.
 
-{{< figure src="/i-avatar/kapu_wave.gif" alt="Kapu Wave Gif" width="180rem" >}}
-{{< figure src="/i-avatar/kapu_switch.gif" alt="Kapu Switch Eyes and Blink Gif" width="180rem" >}}
+{{< figure src="/performative-avatar/i-avatar/kapu_wave.gif" alt="Kapu Wave Gif" width="180rem" >}}
+{{< figure src="/performative-avatar/i-avatar/kapu_switch.gif" alt="Kapu Switch Eyes and Blink Gif" width="180rem" >}}
 
 2. **On-body Adjustment**
 
 The most important thing for a mobile Avatar app targeting kids is usability: understandable and usable for anyone who has no modeling experience. Putting clear control points on the body, instead of using sliders, Kapu is very easy and straightforward to use. This feature is also quite similar to the Liquify section in Photoshop CC.
 
-{{< figure src="/i-avatar/kapu_control.png" alt="Kapu Control Points" width="220rem" >}}
+{{< figure src="/performative-avatar/i-avatar/kapu_control.png" alt="Kapu Control Points" width="220rem" >}}
 
 3. **Avatar in the House**
 
 As a beginner level Avatar creator, the app doesn't offer many parameters to be changed, and the whole process is heavily based on picking from preset haircut, facial features and clothing - can be purchased in the online market. The market is also serving for another feature of the app: My Space. The Avatar can not only stand on the grey plain floor, but also be realtime rendered into a room that can be decorated and visited by the user's friends.
 
-{{< figure src="/i-avatar/kapu_room.jpg" alt="Kapu My Space" width="220rem" >}}
+{{< figure src="/performative-avatar/i-avatar/kapu_room.jpg" alt="Kapu My Space" width="220rem" >}}
 
 ### Social Avatars
 
@@ -53,13 +53,13 @@ Avatars are never apart from a society as humans can never. And I can see Kapu's
 
 <br>
 
-{{< figure src="/i-avatar/fuse_showcase.jpg" alt="Fuse Showcase" width="100%" >}}
+{{< figure src="/performative-avatar/i-avatar/fuse_showcase.jpg" alt="Fuse Showcase" width="100%" >}}
 
 <br>
 
 In contrast, Fuse is a very serious tool: detailed and cooperated with Adobe suite and Mixamo for further productions. While it's also based on picking from some very limited preset templets, it also offers a great many of sliders for users to customize the face, body, and texture. The user can then choose from another very limited library of ~~ugly~~ clothes.
 
-{{< video src="/i-avatar/fuse_make.mp4" width="100%" >}}
+{{< video src="/performative-avatar/i-avatar/fuse_make.mp4" width="100%" >}}
 
 Although there're tons of parameters for users to adjust, templets as the base are all western faces. And I spent 30 minutes to just get it a little closer to my Asian looking.
 
