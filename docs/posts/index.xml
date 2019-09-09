@@ -5,10 +5,20 @@
     <link>https://blog.jpl.design/posts/</link>
     <description>Recent content in Posts on JPL BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 08 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.jpl.design/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Glance of AI</title>
+      <link>https://blog.jpl.design/posts/machine-learning-for-the-arts/a-glance-of-ai/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/a-glance-of-ai/</guid>
+      <description>A Glance of AI How to say Hi in Klingonese?  In this section a task and corresponding AI system will be designed.
+ Klingonese is an artificial alien language, every word of which is well documented and can be easily looked up by Star Trek fans. But when we&amp;rsquo;re faced with real Aliens, in like 100 years, we&amp;rsquo;ll have to listen to languages we&amp;rsquo;ve never heard of before. We&amp;rsquo;ll know nothing about the vocabulary, grammar, or structure, and we&amp;rsquo;ll have no family or root languages to compare to.</description>
+    </item>
     
     <item>
       <title>Eye 101</title>
