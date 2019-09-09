@@ -4,6 +4,7 @@ headless: true
 
 - **Collective Play**
 - **Communications Lab**
+  - [One Story]({{< relref "posts/communications-lab/one-story.md" >}})
 - **Intro to Physical Computing**
   - [Eye 101]({{< relref "posts/intro-to-physical-computing/eye-101.md">}})
   - [Something About Computer]({{< relref "posts/intro-to-physical-computing/something-about-computer.md">}})
