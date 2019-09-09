@@ -21,7 +21,7 @@ Another stakeholder involved in story telling cannot be ignored as well: It's al
 In my opinion, it's fine to have just one story, as it's how most of our world is running on. More importantly, we can have a story that is embracing more than one point of view and allowing critic. Netflix's recent documentary American Factory is a good example. What makes a single story dangerous is not that there's not a second one, but the very only one is manipulated based on the storyteller's interests. If so, it's useless to have more stories since we're just jumping from one lie to another. Or it could be even more dangerous as people are comforted to have more fake options. One story could have multiple perspectives, and we just choose not to.
 
 - Is there free will?
-- Is telling partial truth lying?s
+- Is telling partial truth lying?
 
 # Reference
 
