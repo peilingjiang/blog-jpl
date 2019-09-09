@@ -71,12 +71,10 @@ Quick notes of suggestions for Avatar making software.
 
 ## Questions
 
-1. Is people's affection to Avatars affected by how alike between them or not?
-
+1. Is people's affection to Avatars affected by how alike between them or not?<br>
 We see very human-alike Avatars, like the characters in SimCity, with preserved body ratio and facial features; some others are beautified intentionally, including the one mentioned above; while there're also some quite different ones: monsters, elves, or even the cursor. What actually decides whether an Avatar will build a emotional connection with (its) _owner_? Should it be alike a real human? Or (it)'s _owner_ more specifically? What role does this similarity play?
 
-2. What makes an Avatar, an Avatar?
-
+2. What makes an Avatar, an Avatar?<br>
 There're more and more Avatar artists, workers, servers, etc. Those are Avatars without a specified _owner_. Are they still an Avatar? Can we call any artificial character an Avatar? Is the Avatar of AI an Avatar?
 
 ## Related Readings
