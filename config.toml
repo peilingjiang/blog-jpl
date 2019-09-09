@@ -46,3 +46,5 @@ pygmentsCodeFences = true
   # (Optional, default true) Enables search function with lunr.js,
   # Index is built on fly, therefore it might slowdown your website.
   BookSearch = true
+
+googleAnalytics = "UA-133943899-2"
