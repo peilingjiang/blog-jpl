@@ -29,7 +29,7 @@ Finally, AI will learn how current languages are taught, as design textbooks and
 
 ***
 
-Actually, while alien language seems too far away, a lot of languages on this planet are dying due to lack of documentation. We could also use the process above as a remedy.
+**Actually, while alien language seems too imaginary, a lot of languages on this planet are endangered due to lack of documentation and proper sufficient usage. We could also use the process and system above as a remedy.**
 
 ### Summary
 
