@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on JPL BLOG</title>
+    <link>https://blog.jpl.design/</link>
+    <description>Recent content in Home on JPL BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://blog.jpl.design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Glance of AI</title>
+      <link>https://blog.jpl.design/posts/machine-learning-for-the-arts/a-glance-of-ai/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/a-glance-of-ai/</guid>
+      <description>A Glance of AI How to say Hi in Klingonese?  In this section a task and corresponding AI system will be designed.
+ Klingonese is an artificial alien language, every word of which is well documented and can be easily looked up by Star Trek fans. But when we&amp;rsquo;re faced with real Aliens, in like 100 years, we&amp;rsquo;ll have to listen to languages we&amp;rsquo;ve never heard of before. We&amp;rsquo;ll know nothing about the vocabulary, grammar, or structure, and we&amp;rsquo;ll have no family or root languages to compare to.</description>
+    </item>
+    
+    <item>
+      <title>One Story</title>
+      <link>https://blog.jpl.design/posts/communications-lab/one-story/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/communications-lab/one-story/</guid>
+      <description>One Story &amp;ndash; Reflection on Chimamanda Ngozi Adichie’s TED talk [1].
+Making one story the only story might be dangerous, but inevitable.
+It&amp;rsquo;s true that each press, media, or storyteller might have their own perspectives, but it&amp;rsquo;s also true that they are all under certain meta narratives [2]. Social media have granted us countless resources of information, but we still feel the cyberspace bias. We could imagine looking into a mirror broken into pieces reflecting the world around, the reflection will be different but not much if all of them are on one flat floor.</description>
+    </item>
+    
+    <item>
+      <title>Eye 101</title>
+      <link>https://blog.jpl.design/posts/intro-to-physical-computing/eye-101/</link>
+      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/intro-to-physical-computing/eye-101/</guid>
+      <description>Eye 101  If you want to know more about how to make fake lashes from copper tape, keep reading : )
+ When asked to make a switch, the first thing came into my mind was EYE - the hard-working switch turning on and off, or in other words, blinking, for 1,4000 times a day.
+Current blink detection methods rely on CV. How could we, as physical computing beginners, use simple physical hacks to interpret this slight movement into analog signal?</description>
+    </item>
+    
+    <item>
+      <title>I, Avatar</title>
+      <link>https://blog.jpl.design/posts/performative-avatars/i-avatar/</link>
+      <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/performative-avatars/i-avatar/</guid>
+      <description>I, Avatar Hundreds of Avatar making softwares are there for tuning our digital representations as the expectations. Specialized softwares like Adobe Fuse and MakeHuman; Sculpting softwares like Cinema4D and blender; Social media like Facebook and twitter; Mobile apps like Memoji and Kapu&amp;hellip;
+Here I used Fuse (beta) and Kapu, a newly released app by Tencent (the largest game company on the planet), created two very distinguishable Avatars of me, and analyzed the differences.</description>
+    </item>
+    
+    <item>
+      <title>Something About Computer</title>
+      <link>https://blog.jpl.design/posts/intro-to-physical-computing/something-about-computer/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/intro-to-physical-computing/something-about-computer/</guid>
+      <description>Something About Computer Prototyping CS The most profound technologies are those that disappear. [1] This line comes from Mark Weiser’s The Computer for the 21st Century. The article from almost 30 years ago opened my eyes to the realm of computing with bringing up Virtual Reality and the “Pad” that you can grab and use anywhere. We never question writing, math, or other information technologies, nor the necessity of their education.</description>
+    </item>
+    
+  </channel>
+</rss>
