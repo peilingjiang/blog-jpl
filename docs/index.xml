@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>ImageNet</title>
+      <link>https://blog.jpl.design/posts/machine-learning-for-the-arts/imagenet/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/imagenet/</guid>
+      <description>ImageNet The first thing that amazed me was that the project of ImageNet took full advantage of WordNet and benefited from Mechanical Turk. In this way, the data is so organized by synonym sets and, sounds crazy, human-annotated. The data can be looked up easily through treemap visualization.
+While each syntex, as claimed, has more than 1000 images on average to be illustrated, I still found some weak portions. With only 138 picture for People section, a lot of subdivisions, including business people and lobby boy, have no photos.</description>
+    </item>
+    
+    <item>
       <title>One Story</title>
       <link>https://blog.jpl.design/posts/communications-lab/one-story/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
@@ -31,17 +41,6 @@ It&amp;rsquo;s true that each press, media, or storyteller might have their own 
     </item>
     
     <item>
-      <title>Eye 101</title>
-      <link>https://blog.jpl.design/posts/intro-to-physical-computing/eye-101/</link>
-      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jpl.design/posts/intro-to-physical-computing/eye-101/</guid>
-      <description>Eye 101  If you want to know more about how to make fake lashes from copper tape, keep reading : )
- When asked to make a switch, the first thing came into my mind was EYE - the hard-working switch turning on and off, or in other words, blinking, for 1,4000 times a day.
-Current blink detection methods rely on CV. How could we, as physical computing beginners, use simple physical hacks to interpret this slight movement into analog signal?</description>
-    </item>
-    
-    <item>
       <title>I, Avatar</title>
       <link>https://blog.jpl.design/posts/performative-avatars/i-avatar/</link>
       <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
@@ -49,15 +48,6 @@ Current blink detection methods rely on CV. How could we, as physical computing 
       <guid>https://blog.jpl.design/posts/performative-avatars/i-avatar/</guid>
       <description>I, Avatar Hundreds of Avatar making softwares are there for tuning our digital representations as the expectations. Specialized softwares like Adobe Fuse and MakeHuman; Sculpting softwares like Cinema4D and blender; Social media like Facebook and twitter; Mobile apps like Memoji and Kapu&amp;hellip;
 Here I used Fuse (beta) and Kapu, a newly released app by Tencent (the largest game company on the planet), created two very distinguishable Avatars of me, and analyzed the differences.</description>
-    </item>
-    
-    <item>
-      <title>Something About Computer</title>
-      <link>https://blog.jpl.design/posts/intro-to-physical-computing/something-about-computer/</link>
-      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jpl.design/posts/intro-to-physical-computing/something-about-computer/</guid>
-      <description>Something About Computer Prototyping CS The most profound technologies are those that disappear. [1] This line comes from Mark Weiser’s The Computer for the 21st Century. The article from almost 30 years ago opened my eyes to the realm of computing with bringing up Virtual Reality and the “Pad” that you can grab and use anywhere. We never question writing, math, or other information technologies, nor the necessity of their education.</description>
     </item>
     
   </channel>
