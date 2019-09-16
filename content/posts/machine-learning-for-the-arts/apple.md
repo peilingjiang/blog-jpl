@@ -66,6 +66,7 @@ Mouth can be either open or close for 3 different body positions, and one more f
 In the end, each label has around 500 picture to train and the training process takes around 10 minutes. While body in different positions might be easy for the machine to learn, the opening and closing of the mouth, in other words, the most important part of the whole gaming experience, seemed hard for it to distinguish as the first version. I had to reduce the influencing factors that could have confused the model: making the background white and clean, stopping calling other people to be recorded, putting my head at the same height for all positions, and opening my mouth as big as possible during the recording - since machine learning models will always find "the closest label," it shall be helpful to make different scenarios as unlike to each other as possible. The performance of the model then improved a lot.
 
 {{< video src="/machine-learning-arts/apple/train_process.mp4" width="100%" >}}
+{{< video src="/machine-learning-arts/apple/model_test.mp4" width="100%" >}}
 
  However, having all different 7 labels is solely because the model trained with teachable machine can't locate the mouth. While *Train models on poses* has an interface with positioned eyes, nose and ears, but there's no way to directly gain data from it.
 
