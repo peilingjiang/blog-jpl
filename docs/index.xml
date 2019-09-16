@@ -10,6 +10,16 @@
     
     
     <item>
+      <title>aPPle!</title>
+      <link>https://blog.jpl.design/posts/machine-learning-for-the-arts/apple/</link>
+      <pubDate>Sun, 15 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/apple/</guid>
+      <description>aPPle! 🍎🥮🐟🍊🍳🍞🍗🍔🍟🥔🍚🥘💣
+aPPle! is a webcam game powered by p5.js and ml5.js. In the game, various kinds of food will fly into the screen and the player need to choose only healthy food, that helps to lose weight, to eat. The player also need to dodge bombs flying into the screen from time to time. Office chair with wheels is recommended to use for playing. Here&amp;rsquo;s a quick link to play on p5 web editor.</description>
+    </item>
+    
+    <item>
       <title>A Glance of AI</title>
       <link>https://blog.jpl.design/posts/machine-learning-for-the-arts/a-glance-of-ai/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
@@ -27,17 +37,6 @@
       <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/imagenet/</guid>
       <description>ImageNet The first thing that amazed me was that the project of ImageNet took full advantage of WordNet and benefited from Mechanical Turk. In this way, the data is so organized by synonym sets and, sounds crazy, human-annotated. The data can be looked up easily through treemap visualization.
 While each syntex, as claimed, has more than 1000 images on average to be illustrated, I still found some weak portions. With only 138 picture for People section, a lot of subdivisions, including business people and lobby boy, have no photos.</description>
-    </item>
-    
-    <item>
-      <title>One Story</title>
-      <link>https://blog.jpl.design/posts/communications-lab/one-story/</link>
-      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jpl.design/posts/communications-lab/one-story/</guid>
-      <description>One Story &amp;ndash; Reflection on Chimamanda Ngozi Adichie’s TED talk [1].
-Making one story the only story might be dangerous, but inevitable.
-It&amp;rsquo;s true that each press, media, or storyteller might have their own perspectives, but it&amp;rsquo;s also true that they are all under certain meta narratives [2]. Social media have granted us countless resources of information, but we still feel the cyberspace bias. We could imagine looking into a mirror broken into pieces reflecting the world around, the reflection will be different but not much if all of them are on one flat floor.</description>
     </item>
     
     <item>
