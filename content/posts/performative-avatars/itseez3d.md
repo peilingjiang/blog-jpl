@@ -52,9 +52,9 @@ The Structure Sensor scan works well with color, meshing and texture details sin
 1. When we talk about Avatar ownership, what are we talking about: Appearance, Identity, or Money?<br>
 Avatar is capable to reflect our appearance, execute our identity, and monetize celebrities' fame. But what do people actually care about when they "fight for" non-statutory rights (in most places) of their digital representatives? Is it **appearance**? An app recently caught a lot of attention in China, not only because with it people can easily replace actors' faces with their own and act in as many movies as they want (like deep fake), but also because of it's domineering user agreement - that most of people wouldn't ever read. The original version of the agreement (that had been rewritten) granted the company the complete right of usage of image data users uploaded. However, after the thing had arisen the attention of the whole society, many people still use it and post "their" works to social media, before the company took any action. Is it **identity**? Or is it **Money**?
 2. Should family members be eligible to make decisions of the after-demise usage of our Avatars when -<br>
-The Avatar is a 3D scanned model that can be programmed to do things?
-The Avatar is so real that could pass "visual Turing test"?
-The Avatar is formed with real biological information including our figure print and medical history?
+The Avatar is a 3D scanned model that can be programmed to do things?<br>
+The Avatar is so real that could pass "visual Turing test"?<br>
+The Avatar is formed with real biological information including our figure print and medical history?<br>
 The Avatar has memory of our past behaviors?
 
 ## Related Readings
