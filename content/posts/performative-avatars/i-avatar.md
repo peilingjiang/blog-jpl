@@ -79,6 +79,8 @@ There're more and more Avatar artists, workers, servers, etc. Those are Avatars 
 
 ## Related Readings
 
+Avatars & Psychology/Self Representation
+
 1. [Virtual Worlds Are Real](https://slate.com/technology/2014/01/proteus-effect-world-of-warcraft-nsa-virtual-worlds-have-real-effects.html)
 2. [Touching online funerals that gamers hold for friends they have never met](https://www.independent.co.uk/life-style/online-funerals-gamers-friends-never-met-gaming-death-social-network-world-of-warcraft-skyrim-a7507836.html)
 3. [Controlling vs “Being” Your Video Game Avatar](https://www.youtube.com/watch?v=dLkyNzFmlHA)
