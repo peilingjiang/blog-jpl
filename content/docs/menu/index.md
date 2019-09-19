@@ -3,6 +3,7 @@ headless: true
 ---
 
 - F19 **Biotechnology**
+  - [Readings]({{< relref "posts/biotechnology/readings.md" >}})
 - F19 **Collective Play**
 - F19 **Machine Learning for the Arts**
   - [aPPle!]({{< relref "posts/machine-learning-for-the-arts/apple.md" >}})

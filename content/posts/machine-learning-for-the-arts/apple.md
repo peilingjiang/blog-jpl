@@ -24,7 +24,7 @@ The screen is divided into three sections: Left, Center, and Right. And the food
 
 ## Winning conditions
 
-The player need to eat enough healthy food to win the game while avoid eating junk or high carbohydrate food. Different food has different "bonus" or "penalty". Since it's a game helping me losing weight (itself involves a lot of workout when playing), the bonus will take off numbers of a preset goal and the player will win when the number is zero.
+The player need to eat enough healthy food to win the game while avoid eating junk or high carbohydrate food. Different food has different "bonus" or "penalty". Since it's a game helping me losing weight (itself involves a lot of workout when playing), the bonus will **take off** numbers of a preset goal and the player will win when the number is zero.
 
 Food          | Bonus (-)               | Food        | Penalty (+)
 --------------|-------------------------|-------------|--------------
