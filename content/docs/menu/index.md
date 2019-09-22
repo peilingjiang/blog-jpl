@@ -6,6 +6,7 @@ headless: true
   - [Readings]({{< relref "posts/biotechnology/readings.md" >}})
 - F19 **Collective Play**
 - F19 **Machine Learning for the Arts**
+  - [Violinist]({{< relref "posts/machine-learning-for-the-arts/violinist.md" >}})
   - [aPPle!]({{< relref "posts/machine-learning-for-the-arts/apple.md" >}})
   - [ImageNet]({{< relref "posts/machine-learning-for-the-arts/imagenet.md" >}})
   - [A Glance of AI]({{< relref "posts/machine-learning-for-the-arts/a-glance-of-ai.md" >}})
