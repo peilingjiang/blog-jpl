@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/book.min.69c6f73d332617241396ee984e8ecadd07f14c322bbef74fbcf0fa269dfb25ac.css" integrity="sha256-acb3PTMmFyQTlu6YTo7K3QfxTDIrvvdPvPD6Jp37Jaw=">
 
 
-<script defer src="/search.min.4f13b591ff21eee0afff762c541476b1168edf0f878b676df5444b2433ab0dd5.js" integrity="sha256-TxO1kf8h7uCv/3YsVBR2sRaO3w&#43;Hi2dt9URLJDOrDdU="></script>
+<script defer src="/search.min.eeab11487949670cd9dc1f5ce417885db6079bd7d56b91e7e860ab64963ceb21.js" integrity="sha256-7qsRSHlJZwzZ3B9c5BeIXbYHm9fVa5Hn6GCrZJY86yE="></script>
 
 
 
@@ -130,7 +130,7 @@ line-height: 150%;
 <p>UPDATE: The name of the project has changed to <strong>Guitarist</strong>!</p>
 </blockquote>
 
-<p><em>Violinist</em> enables user to play violin (or potentially any type of instrument) by just posing as they are playing it. This simple have-a-try project is based on p5.js, ml5.js, and poseNet, and help us understand the basic use of poseNet and p5.serialControl. Here&rsquo;s the <a href="https://editor.p5js.org/peilingjiang/full/eguZUH4Xb">link</a> to p5 web app (p5.serialControl and Arduino required).</p>
+<p><em>Violinist</em> enables user to play violin (or potentially any type of instrument) by just posing as they are playing it. This simple have-a-try project is based on p5.js, ml5.js, and poseNet, and help us understand the basic use of poseNet and p5.serialControl. Here&rsquo;s the <a href="https://editor.p5js.org/peilingjiang/full/eguZUH4Xb"><strong>link</strong></a> to p5 web app (p5.serialControl and Arduino required).</p>
 
 <h2 id="posenet-in-p5-js">poseNet() in p5.js</h2>
 
@@ -202,11 +202,40 @@ pop();
 <ol>
 <li><p>Due to time and the scale of the project, we didn&rsquo;t have enough time to further tuning the tone of buzzer. But it&rsquo;ll be the first to-do on the list. Moreover, instead of playing just one note, a sequence of notes can be programmed to beep to create a real song. And mp3 shield can be used to make the sound better.</p></li>
 
-<li><p>As mentioned in <strong>Correct Pose</strong> section, we need to train the model to recognize the specific poses, <em>performing</em> in this case, in a more &ldquo;elegant&rdquo; way.</p></li>
+<li><p>As mentioned in <strong>Correct Pose</strong> section, we need to train the model to recognize the specific poses, <em>performing</em> in this case, in a more &ldquo;elegant&rdquo; way. If the pose can be detected not only based on the absolute positions of the points, we can have more people in the screen and play together.</p></li>
+</ol>
+
+<h1 id="reading-reflection">Reading Reflection</h1>
+
+<p>Body movements tell a story. It&rsquo;s all our gestures, motion, and dance are about. Our project, though in a simple and amateur way, is inspired by the concept - we connect body language and music. And I&rsquo;m looking forward to seeing more possibilities out of the concept.</p>
+
+<p>COCO Dataset is much more user friendly than ImageNet, with clear icons, styling illustration, and faster response. However, the biggest difference is the sorting mechanism: while ImageNet can only lookup an image based on a single tree path, COCO dataset enables user to filter the results by adding or removing different labels of things that the pictures contain. Just as Arthur said: <em>&ldquo;In order to understand a scene, each visual information has to be associated to an entity while considering the spatial information.&rdquo;</em> However, the labels, based on the things in the image, are not always completed. For example, in a picture with both elephants and trees in the background, the animal part is distinguished and labeled while the plants are not.</p>
+
+<p>The same as ImageNet, many pictures with people can be found in the data set - and many are in private scenarios like bedroom, which might cause potential privacy and ethical problems. And the same as ImageNet, COCO claims that <em>The COCO Consortium does not own the copyright of the images. Use of the images must abide by the Flickr Terms of Use.</em> Are there better ways of collecting data from human-related scenes?</p>
+
+<h2 id="related-readings">Related Readings</h2>
+
+<ol>
+<li><a href="https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5">Real-time Human Pose Estimation in the Browser with TensorFlow.js</a></li>
+<li><a href="https://medium.com/artists-and-machine-intelligence/mixing-movement-and-machine-848095ea5596">Mixing movement and machine</a></li>
+<li><a href="https://medium.com/@arthur_ouaknine/review-of-deep-learning-algorithms-for-image-semantic-segmentation-509a600f7b57">Review of Deep Learning Algorithms for Image Semantic Segmentation</a></li>
+<li><a href="http://cocodataset.org">COCO Dataset</a></li>
 </ol>
 </article>
 
       
+<div class="book-footer justify-between">
+  
+  <div>
+    
+    <a href="/commit/ab6b5a14dacdd688e411e69a122577b821cd57b1" title='Last modified Sep 22, 2019 by Peiling Jiang' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" alt="Changed" /> Sep 22, 2019
+    </a>
+  </div>
+  
+  
+</div>
+
 
       
     </div>
@@ -227,6 +256,10 @@ pop();
 </ul></li>
 <li><a href="#physical-computing">Physical Computing</a></li>
 <li><a href="#future-works">Future Works</a></li>
+</ul></li>
+<li><a href="#reading-reflection">Reading Reflection</a>
+<ul>
+<li><a href="#related-readings">Related Readings</a></li>
 </ul></li>
 </ul>
 </nav>

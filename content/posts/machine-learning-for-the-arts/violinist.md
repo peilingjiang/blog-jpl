@@ -12,7 +12,7 @@ bookToc: true
 
 > UPDATE: The name of the project has changed to **Guitarist**!
 
-_Violinist_ enables user to play violin (or potentially any type of instrument) by just posing as they are playing it. This simple have-a-try project is based on p5.js, ml5.js, and poseNet, and help us understand the basic use of poseNet and p5.serialControl. Here's the [link](https://editor.p5js.org/peilingjiang/full/eguZUH4Xb) to p5 web app (p5.serialControl and Arduino required).
+_Violinist_ enables user to play violin (or potentially any type of instrument) by just posing as they are playing it. This simple have-a-try project is based on p5.js, ml5.js, and poseNet, and help us understand the basic use of poseNet and p5.serialControl. Here's the [**link**](https://editor.p5js.org/peilingjiang/full/eguZUH4Xb) to p5 web app (p5.serialControl and Arduino required).
 
 ## poseNet() in p5.js
 
@@ -77,4 +77,19 @@ We want the buzzer to beep at different rate as the user play faster or slower. 
 
 1. Due to time and the scale of the project, we didn't have enough time to further tuning the tone of buzzer. But it'll be the first to-do on the list. Moreover, instead of playing just one note, a sequence of notes can be programmed to beep to create a real song. And mp3 shield can be used to make the sound better.
 
-2. As mentioned in **Correct Pose** section, we need to train the model to recognize the specific poses, _performing_ in this case, in a more "elegant" way.
+2. As mentioned in **Correct Pose** section, we need to train the model to recognize the specific poses, _performing_ in this case, in a more "elegant" way. If the pose can be detected not only based on the absolute positions of the points, we can have more people in the screen and play together.
+
+# Reading Reflection
+
+Body movements tell a story. It's all our gestures, motion, and dance are about. Our project, though in a simple and amateur way, is inspired by the concept - we connect body language and music. And I'm looking forward to seeing more possibilities out of the concept.
+
+COCO Dataset is much more user friendly than ImageNet, with clear icons, styling illustration, and faster response. However, the biggest difference is the sorting mechanism: while ImageNet can only lookup an image based on a single tree path, COCO dataset enables user to filter the results by adding or removing different labels of things that the pictures contain. Just as Arthur said: _"In order to understand a scene, each visual information has to be associated to an entity while considering the spatial information."_ However, the labels, based on the things in the image, are not always completed. For example, in a picture with both elephants and trees in the background, the animal part is distinguished and labeled while the plants are not.
+
+The same as ImageNet, many pictures with people can be found in the data set - and many are in private scenarios like bedroom, which might cause potential privacy and ethical problems. And the same as ImageNet, COCO claims that _The COCO Consortium does not own the copyright of the images. Use of the images must abide by the Flickr Terms of Use._ Are there better ways of collecting data from human-related scenes?
+
+## Related Readings
+
+1. [Real-time Human Pose Estimation in the Browser with TensorFlow.js](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
+2. [Mixing movement and machine](https://medium.com/artists-and-machine-intelligence/mixing-movement-and-machine-848095ea5596)
+3. [Review of Deep Learning Algorithms for Image Semantic Segmentation](https://medium.com/@arthur_ouaknine/review-of-deep-learning-algorithms-for-image-semantic-segmentation-509a600f7b57)
+4. [COCO Dataset](http://cocodataset.org)
