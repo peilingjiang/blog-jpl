@@ -10,9 +10,9 @@ bookToc: true
 
 # Violinist
 
-> UPDATE: The name of the project has changed to **Guitarist**!
+> UPDATE: The name of the project has been changed to **Guitarist**!
 
-With Heather Kim
+Group Project with Heather Kim
 
 _Violinist_ enables user to play violin (or potentially any type of instrument) by just posing as they are playing it. This simple have-a-try project is based on p5.js, ml5.js, and poseNet, and help us understand the basic use of poseNet and p5.serialControl. Here's the [**link**](https://editor.p5js.org/peilingjiang/full/eguZUH4Xb) to p5 web app (p5.serialControl and Arduino required).
 
@@ -22,9 +22,11 @@ The goal is to have the webcam and p5 web app be able to distinguish the **relax
 
 ### Eliminate Noise
 
-Raw poseNet() output is quite noisy with more than 10 digits after the decimal point and the value changing 60 times a second. As a result, the keypoints drawn are shaking all the time and unusable for us as our calculation will be based on the position of those dots. Thus we set `noiseDelta = 6`, and if the horizontal or vertical position changes between frames are smaller than the value is will be regarded as noise. Moreover, we use the same strategy for minimizing the noise of angle changing, by setting `sensitivity = 12` (degrees).
+Raw poseNet() output is quite noisy with more than 10 digits after the decimal point and the value changing 60 times a second. As a result, the keypoints drawn are shaking all the time and unusable for us as our calculation will be based on the position of those dots. Thus we set `noiseDelta = 6`, and if the horizontal or vertical position change between frames are smaller than the value, it will be regarded as noise. Moreover, we use the same strategy for minimizing the noise of angle changing, by setting `sensitivity = 12` (degrees).
 
 <img src="/machine-learning-arts/violinist/noise.gif" alt="Comparison between raw points and noise-eliminated points" width="100%" >
+
+While we setup all these rules above, poseNet will just return unreasonable points - jumping around - sometimes when the background is complex or the skeleton is covered by accessories, like a watch, or itself. Thus we added an `offTime` counter and the pose will only be regarded as not playing when some keypoint is off more than 100 frames.
 
 ### Correct Pose
 
@@ -67,19 +69,21 @@ class Point {
 
 ## Physical Computing
 
-We want the buzzer to beep at different rate as the user play faster or slower. To do that, we map the velocity of angle changing to `delay(x)` - the faster the user is playing, the bigger the `vel`, and the smaller the value of `x`. (Please turn down the volume before playing the video.)
+We want the buzzer to beep at different rates as the user play faster or slower. To do that, we map the velocity of angle changing to `delay(x)` - the faster the user is playing, the bigger the `vel`, and the smaller the value of `x`. (Please turn down the volume before playing the video.)
 
 <br>
 
 {{< video src="/machine-learning-arts/violinist/final.mp4" width="100%" >}}
 
-<br>
+[Link](https://github.com/peilingjiang/ima-courses/tree/master/f19-ml-art/posenet/public) to source code files.
 
 ## Future Works
 
 1. Due to time and the scale of the project, we didn't have enough time to further tuning the tone of buzzer. But it'll be the first to-do on the list. Moreover, instead of playing just one note, a sequence of notes can be programmed to beep to create a real song. And mp3 shield can be used to make the sound better.
 
 2. As mentioned in **Correct Pose** section, we need to train the model to recognize the specific poses, _performing_ in this case, in a more "elegant" way. If the pose can be detected not only based on the absolute positions of the points, we can have more people in the screen and play together.
+
+3. How to make the same concept possible for other kinds of instrument? For instance, to play piano by just finger drumming the table. It would be ~~weird~~ cool if the whole orchestra played music by posing air.
 
 # Reading Reflection
 

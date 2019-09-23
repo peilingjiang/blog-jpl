@@ -16,8 +16,8 @@
       <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/violinist/</guid>
-      <description>Violinist  UPDATE: The name of the project has changed to Guitarist!
- With Heather Kim
+      <description>Violinist  UPDATE: The name of the project has been changed to Guitarist!
+ Group Project with Heather Kim
 Violinist enables user to play violin (or potentially any type of instrument) by just posing as they are playing it. This simple have-a-try project is based on p5.js, ml5.js, and poseNet, and help us understand the basic use of poseNet and p5.serialControl. Here&amp;rsquo;s the link to p5 web app (p5.serialControl and Arduino required).</description>
     </item>
     

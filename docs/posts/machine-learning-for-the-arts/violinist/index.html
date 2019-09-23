@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/book.min.69c6f73d332617241396ee984e8ecadd07f14c322bbef74fbcf0fa269dfb25ac.css" integrity="sha256-acb3PTMmFyQTlu6YTo7K3QfxTDIrvvdPvPD6Jp37Jaw=">
 
 
-<script defer src="/search.min.456dc7f51959dcd1ca4b2d2438484645e035bb40fd90d88e34ca0ad041b8b7c5.js" integrity="sha256-RW3H9RlZ3NHKSy0kOEhGReA1u0D9kNiONMoK0EG4t8U="></script>
+<script defer src="/search.min.b632513ad2700b5983c6445a3305c92ef9e927a3567fd97b7070a8b6e76a0976.js" integrity="sha256-tjJROtJwC1mDxkRaMwXJLvnpJ6NWf9l7cHCotudqCXY="></script>
 
 
 
@@ -127,10 +127,10 @@ line-height: 150%;
 <h1 id="violinist">Violinist</h1>
 
 <blockquote>
-<p>UPDATE: The name of the project has changed to <strong>Guitarist</strong>!</p>
+<p>UPDATE: The name of the project has been changed to <strong>Guitarist</strong>!</p>
 </blockquote>
 
-<p>With Heather Kim</p>
+<p>Group Project with Heather Kim</p>
 
 <p><em>Violinist</em> enables user to play violin (or potentially any type of instrument) by just posing as they are playing it. This simple have-a-try project is based on p5.js, ml5.js, and poseNet, and help us understand the basic use of poseNet and p5.serialControl. Here&rsquo;s the <a href="https://editor.p5js.org/peilingjiang/full/eguZUH4Xb"><strong>link</strong></a> to p5 web app (p5.serialControl and Arduino required).</p>
 
@@ -140,9 +140,11 @@ line-height: 150%;
 
 <h3 id="eliminate-noise">Eliminate Noise</h3>
 
-<p>Raw poseNet() output is quite noisy with more than 10 digits after the decimal point and the value changing 60 times a second. As a result, the keypoints drawn are shaking all the time and unusable for us as our calculation will be based on the position of those dots. Thus we set <code>noiseDelta = 6</code>, and if the horizontal or vertical position changes between frames are smaller than the value is will be regarded as noise. Moreover, we use the same strategy for minimizing the noise of angle changing, by setting <code>sensitivity = 12</code> (degrees).</p>
+<p>Raw poseNet() output is quite noisy with more than 10 digits after the decimal point and the value changing 60 times a second. As a result, the keypoints drawn are shaking all the time and unusable for us as our calculation will be based on the position of those dots. Thus we set <code>noiseDelta = 6</code>, and if the horizontal or vertical position change between frames are smaller than the value, it will be regarded as noise. Moreover, we use the same strategy for minimizing the noise of angle changing, by setting <code>sensitivity = 12</code> (degrees).</p>
 
 <p><img src="/machine-learning-arts/violinist/noise.gif" alt="Comparison between raw points and noise-eliminated points" width="100%" ></p>
+
+<p>While we setup all these rules above, poseNet will just return unreasonable points - jumping around - sometimes when the background is complex or the skeleton is covered by accessories, like a watch, or itself. Thus we added an <code>offTime</code> counter and the pose will only be regarded as not playing when some keypoint is off more than 100 frames.</p>
 
 <h3 id="correct-pose">Correct Pose</h3>
 
@@ -186,7 +188,7 @@ pop();
 
 <h2 id="physical-computing">Physical Computing</h2>
 
-<p>We want the buzzer to beep at different rate as the user play faster or slower. To do that, we map the velocity of angle changing to <code>delay(x)</code> - the faster the user is playing, the bigger the <code>vel</code>, and the smaller the value of <code>x</code>. (Please turn down the volume before playing the video.)</p>
+<p>We want the buzzer to beep at different rates as the user play faster or slower. To do that, we map the velocity of angle changing to <code>delay(x)</code> - the faster the user is playing, the bigger the <code>vel</code>, and the smaller the value of <code>x</code>. (Please turn down the volume before playing the video.)</p>
 
 <p><br></p>
 
@@ -197,7 +199,7 @@ pop();
 </video>
 
 
-<p><br></p>
+<p><a href="https://github.com/peilingjiang/ima-courses/tree/master/f19-ml-art/posenet/public">Link</a> to source code files.</p>
 
 <h2 id="future-works">Future Works</h2>
 
@@ -205,6 +207,8 @@ pop();
 <li><p>Due to time and the scale of the project, we didn&rsquo;t have enough time to further tuning the tone of buzzer. But it&rsquo;ll be the first to-do on the list. Moreover, instead of playing just one note, a sequence of notes can be programmed to beep to create a real song. And mp3 shield can be used to make the sound better.</p></li>
 
 <li><p>As mentioned in <strong>Correct Pose</strong> section, we need to train the model to recognize the specific poses, <em>performing</em> in this case, in a more &ldquo;elegant&rdquo; way. If the pose can be detected not only based on the absolute positions of the points, we can have more people in the screen and play together.</p></li>
+
+<li><p>How to make the same concept possible for other kinds of instrument? For instance, to play piano by just finger drumming the table. It would be <del>weird</del> cool if the whole orchestra played music by posing air.</p></li>
 </ol>
 
 <h1 id="reading-reflection">Reading Reflection</h1>
@@ -230,7 +234,7 @@ pop();
   
   <div>
     
-    <a href="/commit/9e59b5f12d3f72d8537619240917664bd635b2c8" title='Last modified Sep 22, 2019 by Peiling Jiang' target="_blank" rel="noopener">
+    <a href="/commit/dd5fe532bc9cb1768a7e9a9cfc042660de4bddfb" title='Last modified Sep 22, 2019 by Peiling Jiang' target="_blank" rel="noopener">
       <img src="/svg/calendar.svg" alt="Changed" /> Sep 22, 2019
     </a>
   </div>
