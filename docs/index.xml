@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Wrap</title>
+      <link>https://blog.jpl.design/posts/performative-avatars/wrap/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/performative-avatars/wrap/</guid>
+      <description>Wrap Remesh Now it&amp;rsquo;s time to wrap the scanned model to eliminate broken or undetailed parts.
+Using Wrap3 and a base mesh, I re-meshed my scanned model and made it closed, less polygon and control points, and detailed in terms of hands and face. However, a few things didn&amp;rsquo;t go very well.
+ Feet. I was scanned with my shoes on while the base model has bare feet. What would happen (and happened) is that if I didn&amp;rsquo;t select foot parts as isolated polygon (and the scanned model would be more important during morphing), the feet and fingers would turn into strange squeezed shape with separated tips still there.</description>
+    </item>
+    
+    <item>
       <title>Violinist</title>
       <link>https://blog.jpl.design/posts/machine-learning-for-the-arts/violinist/</link>
       <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
