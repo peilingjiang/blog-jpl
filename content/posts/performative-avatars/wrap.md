@@ -46,4 +46,5 @@ Avatars & Gender
 
 1. [Men Are Working Out Their Issues By Playing As Their Lovers and Exes in RPGs](https://www.vice.com/en_us/article/gv5583/men-are-working-out-their-issues-by-playing-as-their-lovers-and-exes-in-rpgs)
 2. [How Video Game Breasts Are Made](https://kotaku.com/how-video-game-breasts-are-made-and-why-they-can-go-so-1687753475)
-3.
+3. [Dealing With Harassment in VR](http://uploadvr.com/dealing-with-harassment-in-vr/)
+4. [How Video Game Avatars Can Help Trans Kids Cope](https://play.acast.com/s/viceguide/379afc7e-b299-4d19-b62d-b293824ee850)
