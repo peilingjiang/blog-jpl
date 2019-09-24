@@ -4,11 +4,9 @@ date: "2019-09-16"
 title: itSeez3D
 tags: ["IMA", "Fall19"]
 categories: ["Reading"]
-type: docs
+type: posts
 bookToc: true
 ---
-
-# itSeez3D
 
 <img src="/performative-avatar/itseez3d/scan_spin.gif" alt="An animation of the scanned model spinning" width="100%" >
 

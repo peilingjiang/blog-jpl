@@ -4,11 +4,9 @@ date: "2019-09-07"
 title: I, Avatar
 tags: ["IMA", "Fall19"]
 categories: ["Reading"]
-type: docs
+type: posts
 bookToc: true
 ---
-
-# I, Avatar
 
 Hundreds of Avatar making softwares are there for tuning our digital representations as the expectations. Specialized softwares like Adobe Fuse and MakeHuman; Sculpting softwares like Cinema4D and blender; Social media like Facebook and twitter; Mobile apps like Memoji and Kapu...
 

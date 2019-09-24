@@ -4,11 +4,9 @@ date: "2019-09-09"
 title: ImageNet
 tags: ["IMA", "Fall19"]
 categories: ["Reading"]
-type: docs
+type: posts
 bookToc: true
 ---
-
-# ImageNet
 
 The first thing that amazed me was that the project of ImageNet took full advantage of WordNet and benefited from Mechanical Turk. In this way, the data is so organized by synonym sets and, sounds crazy, human-annotated. The data can be looked up easily through treemap visualization.
 

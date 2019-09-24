@@ -4,11 +4,9 @@ date: "2019-09-09"
 title: A Glance of AI
 tags: ["IMA", "Fall19"]
 categories: ["Reading"]
-type: docs
+type: posts
 bookToc: true
 ---
-
-# A Glance of AI
 
 ## How to say Hi in Klingonese?
 

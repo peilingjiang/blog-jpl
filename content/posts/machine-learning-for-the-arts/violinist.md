@@ -4,11 +4,9 @@ date: "2019-09-22"
 title: Violinist
 tags: ["IMA", "Fall19"]
 categories: ["Project"]
-type: docs
+type: posts
 bookToc: true
 ---
-
-# Violinist
 
 > UPDATE: The name of the project has been changed to **Guitarist**!
 
@@ -85,7 +83,7 @@ We want the buzzer to beep at different rates as the user play faster or slower.
 
 3. How to make the same concept possible for other kinds of instrument? For instance, to play piano by just finger drumming the table. It would be ~~weird~~ cool if the whole orchestra played music by posing air.
 
-# Reading Reflection
+## Reading Reflection
 
 Body movements tell a story. It's all our gestures, motion, and dance are about. Our project, though in a simple and amateur way, is inspired by the concept - we connect body language and music. And I'm looking forward to seeing more possibilities out of the concept.
 
@@ -93,7 +91,7 @@ COCO Dataset is much more user friendly than ImageNet, with clear icons, styling
 
 The same as ImageNet, many pictures with people can be found in the data set - and many are in private scenarios like bedroom, which might cause potential privacy and ethical problems. And the same as ImageNet, COCO claims that _The COCO Consortium does not own the copyright of the images. Use of the images must abide by the Flickr Terms of Use._ Are there better ways of collecting data from human-related scenes?
 
-## Related Readings
+### Related Readings
 
 1. [Real-time Human Pose Estimation in the Browser with TensorFlow.js](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
 2. [Mixing movement and machine](https://medium.com/artists-and-machine-intelligence/mixing-movement-and-machine-848095ea5596)

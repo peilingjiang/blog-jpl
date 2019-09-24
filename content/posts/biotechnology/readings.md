@@ -4,11 +4,11 @@ date: "2019-09-18"
 title: Readings
 tags: ["IMA", "Fall19"]
 categories: ["Reading"]
-type: docs
+type: posts
 bookToc: true
 ---
 
-# CRISPR
+## CRISPR
 
 > This is a quick note of CRISPR, a topic to familiarize and workshop in class.
 
@@ -30,7 +30,7 @@ bookToc: true
 
 CRISPR genome editing allows scientists to quickly create cell and animal models, which researchers can use to accelerate research into diseases such as cancer and mental illness. In addition, CRISPR is now being developed as a rapid diagnostic. To help encourage this type of research worldwide, Feng Zhang and his team have trained thousands of researchers in the use of CRISPR genome editing technology through direct education and by sharing more than 40,000 CRISPR components with academic laboratories around the world.
 
-## Reference
+### Reference
 1. [CRISPR - Wikipedia](https://en.wikipedia.org/wiki/CRISPR)
 2. [Meet one of the world's most groundbreaking scientists.](https://www.statnews.com/2015/11/06/hollywood-inspired-scientist-rewrite-code-life/)
 3. [ZHANG LAB](https://zlab.bio/)
@@ -43,11 +43,11 @@ CRISPR genome editing allows scientists to quickly create cell and animal models
 10. [Gene editing can now change an entire species -- forever | Jennifer Kahn](https://www.youtube.com/watch?v=OI_OhvOumT0)
 11. [What you need to know about CRISPR | Ellen Jorgensen](https://www.youtube.com/watch?v=1BXYSGepx7Q)
 
-# Week Two
+## Week Two
 
 A high school student is cloning DNA at home. A former NASA scientist is live streaming experiments in his garage. A marketplace called Science Exchange is selling cloned DNA fragments that, potentially, could be used for both good or ill. All these facts are pointing to one clue: we are inevitably coming closer and closer to an era where most bio knowledge and experiments are decentralized and accessible for everyone. Community labs are awesome and form an unreplaceable piece of $370 billion bioeconomy. But we cannot ignore another fact as well: Keoni Gandall, the high-schooler, gained his fellowship in Stanford after experiments in his home, and Josiah Zayner, the former NASA scientist, worked for the government department and is still active in acknowledged academia conferences. People always say opportunities and possibilities in bio in this century are as promising as those in cyber industry from the past decades (and much much more). And after years of compiling and simplifying, coding is easy enough for everyone to learn and do. However, while "professional" programming education is now available from Youtube to summer schools, "research" labs are still only among the top tire universities. Similarly, what we should expect from the increasing community labs might be the introductory courses and accessible equipment that would bring more people into the field.
 
-## Reference
+### Reference
 
 1. [As D.I.Y. Gene Editing Gains Popularity, ‘Someone Is Going to Get Hurt’](https://www.nytimes.com/2018/05/14/science/biohackers-gene-editing-virus.html)
 2. [Science Exchange](https://www.scienceexchange.com/)
