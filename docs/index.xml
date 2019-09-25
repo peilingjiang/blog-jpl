@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on JPL BLOG</title>
+    <link>https://blog.jpl.design/</link>
+    <description>Recent content in Home on JPL BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://blog.jpl.design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Housing Price</title>
+      <link>https://blog.jpl.design/posts/machine-learning-for-the-arts/housing-price/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/housing-price/</guid>
+      <description>After a long time wandering in Kaggle and OpenML, I finally decided to choose the dataset of Housing price in Beijing (Housing price of Beijing from 2011 to 2017, fetching from Lianjia.com.) from Kaggle as the data I&amp;rsquo;m to collect, wrangle and build on for this week&amp;rsquo;s assignment.
+My interests and curiosity of housing price might be arisen by Ekene Ijeoma&amp;rsquo;s Wage Islands: Immigrants project - a sculpture to visualize where low-wage immigrant workers can afford to rent in NYC.</description>
+    </item>
+    
+    <item>
+      <title>Wrap</title>
+      <link>https://blog.jpl.design/posts/performative-avatars/wrap/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/performative-avatars/wrap/</guid>
+      <description>Remesh Now it&amp;rsquo;s time to wrap the scanned model to eliminate broken or undetailed parts.
+Using Wrap3 and a base mesh, I re-meshed my scanned model and made it closed, less polygon and control points, and detailed in terms of hands and face. However, a few things didn&amp;rsquo;t go very well.
+ Feet. I was scanned with my shoes on while the base model has bare feet. What would happen (and happened) is that if I didn&amp;rsquo;t select foot parts as isolated polygon (and the scanned model would be more important during morphing), the feet and fingers would turn into strange squeezed shape with separated tips still there.</description>
+    </item>
+    
+    <item>
+      <title>Violinist</title>
+      <link>https://blog.jpl.design/posts/machine-learning-for-the-arts/violinist/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/violinist/</guid>
+      <description>UPDATE: The name of the project has been changed to Guitarist!
+ Group Project with Heather Kim
+Violinist enables user to play violin (or potentially any type of instrument) by just posing as they are playing it. This simple have-a-try project is based on p5.js, ml5.js, and poseNet, and help us understand the basic use of poseNet and p5.serialControl. Here&amp;rsquo;s the link to p5 web app (p5.serialControl and Arduino required).</description>
+    </item>
+    
+    <item>
+      <title>Readings</title>
+      <link>https://blog.jpl.design/posts/biotechnology/readings/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/biotechnology/readings/</guid>
+      <description>CRISPR  This is a quick note of CRISPR, a topic to familiarize and workshop in class.
+ CRISPR is changing how we do science. (Phillip Sharp)
+ What Clustered regularly interspaced short palindromic repeats is a family of DNA sequences found within the genomes of prokaryotic organisms such as bacteria and archaea.
+Cas9 (CRISPR-associated protein 9) is an enzyme that uses CRISPR sequences as a guide to recognize and cleave specific strands of DNA that are complementary to the CRISPR sequence.</description>
+    </item>
+    
+    <item>
+      <title>itSeez3D</title>
+      <link>https://blog.jpl.design/posts/performative-avatars/itseez3d/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/performative-avatars/itseez3d/</guid>
+      <description>This week I scanned my whole body with itSeez3D app and Occipital’s Structure Sensor for capturing color and structure information. The app did a decent job for well capturing overall information including my height (a little taller) and body shape; and details from the words on my t-shirt to acne on my face.
+My partner held the iPad and scanned me for 3 times while the first trail was a total failure and we didn&amp;rsquo;t keep it.</description>
+    </item>
+    
+    <item>
+      <title>aPPle!</title>
+      <link>https://blog.jpl.design/posts/machine-learning-for-the-arts/apple/</link>
+      <pubDate>Sun, 15 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/apple/</guid>
+      <description>🍎🥮🐟🍊🍳🍞🍗🍔🍟🥔🍚🥘💣
+aPPle! is a webcam game powered by p5.js and ml5.js. In the game, various kinds of food will fly into the screen and the player need to choose only healthy food, that helps to lose weight, to eat. The player also need to dodge bombs flying into the screen from time to time. Office chair with wheels is recommended to use for playing. Here&amp;rsquo;s the link to play on p5 web editor.</description>
+    </item>
+    
+    <item>
+      <title>A Glance of AI</title>
+      <link>https://blog.jpl.design/posts/machine-learning-for-the-arts/a-glance-of-ai/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/a-glance-of-ai/</guid>
+      <description>How to say Hi in Klingonese?  In this section a task and corresponding AI system will be designed.
+ Klingonese is an artificial alien language, every word of which is well documented and can be easily looked up by Star Trek fans. But when we&amp;rsquo;re faced with real Aliens, in like 100 years, we&amp;rsquo;ll have to listen to languages we&amp;rsquo;ve never heard of before. We&amp;rsquo;ll know nothing about the vocabulary, grammar, or structure, and we&amp;rsquo;ll have no family or root languages to compare to.</description>
+    </item>
+    
+    <item>
+      <title>ImageNet</title>
+      <link>https://blog.jpl.design/posts/machine-learning-for-the-arts/imagenet/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/imagenet/</guid>
+      <description>The first thing that amazed me was that the project of ImageNet took full advantage of WordNet and benefited from Mechanical Turk. In this way, the data is so organized by synonym sets and, sounds crazy, human-annotated. The data can be looked up easily through treemap visualization.
+While each syntex, as claimed, has more than 1000 images on average to be illustrated, I still found some weak portions. With only 138 picture for People section, a lot of subdivisions, including business people and lobby boy, have no photos.</description>
+    </item>
+    
+    <item>
+      <title>I, Avatar</title>
+      <link>https://blog.jpl.design/posts/performative-avatars/i-avatar/</link>
+      <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/performative-avatars/i-avatar/</guid>
+      <description>Hundreds of Avatar making softwares are there for tuning our digital representations as the expectations. Specialized softwares like Adobe Fuse and MakeHuman; Sculpting softwares like Cinema4D and blender; Social media like Facebook and twitter; Mobile apps like Memoji and Kapu&amp;hellip;
+Here I used Fuse (beta) and Kapu, a newly released app by Tencent (the largest game company on the planet), created two very distinguishable Avatars of me, and analyzed the differences.</description>
+    </item>
+    
+  </channel>
+</rss>
