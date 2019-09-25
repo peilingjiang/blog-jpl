@@ -25,6 +25,7 @@ I was confused by some variables at first since they are only displayed as a num
 - ladderRatio: the proportion between number of residents on the same floor and number of elevator of ladder. It describes how many ladders a resident has on average.
 - elevator: Have (1), not have (0).
 - fiveYearsProperty: (1) if the owner have the property for less than 5 years. It's related to China's housing purchase policy.
+- district: Dongcheng (1), Fengtai (2), Tongzhou (3), Daxin (4), Fangshan (5), Changping (6), Chaoyang (7), Haidian (8), Shijinshan (9), Xicheng (10), Pinggu (11), Mentougou (12), Shunyi (13).
 
 All the data are last updated a year ago (2018) and reflect the housing prices from 2011 to 2017. Since there's a URL linked to China's largest house trading platform, I assume all these data were captured from that website.
 
@@ -36,6 +37,6 @@ The first thing I noticed is that there are a great many of variables that could
 
 ## Problems
 
-Location is not clearly reflected in the data. In terms of Beijing, a city clearly divided into several districts, it's probably better to just have a *"district number"* for each house. Also, due to the source of the data is a Chinese website, there's a lot of errors and garbled text in original data and I have to set encoding to GB2312 to have those text correctly displayed, while still with a lot of error.
+With Lng and Lat, and district number, the location is kind of clearly reflected in the data - In terms of a city like Beijing, location of the property might be the most important thing related to the price. However, 3 administrative districts are missing in this data collection. Also, due to the source of the data is a Chinese website, there's a lot of errors and garbled text in original data and I have to set encoding to GB2312 to have those text correctly displayed, while still with a lot of error.
 
-When a data is missing, sometimes it says "nan", while others might say "未知" (unknown). I think this could also potentially confuse the machine during the training.
+When a data is missing, sometimes it says "nan", while others might say "未知" (unknown). I think this could also potentially confuse the machine during the training. The documentation of the dataset is also not very good, with some important description missing that I had to search in the discussion section.
