@@ -40,3 +40,13 @@ The first thing I noticed is that there are a great many of variables that could
 With Lng and Lat, and district number, the location is kind of clearly reflected in the data - In terms of a city like Beijing, location of the property might be the most important thing related to the price. However, 3 administrative districts are missing in this data collection. Also, due to the source of the data is a Chinese website, there's a lot of errors and garbled text in original data and I have to set encoding to GB2312 to have those text correctly displayed, while still with a lot of error.
 
 When a data is missing, sometimes it says "nan", while others might say "未知" (unknown). I think this could also potentially confuse the machine during the training. The documentation of the dataset is also not very good, with some important description missing that I had to search in the discussion section.
+
+## Clean
+
+I tried several ways to prepare a cleaner dataset for the further use.
+
+1. I split *floor*, which consists of both a character indicating the height level of the house, and the exact floor number, into two different columns: *floor class* and *floor num*. And replaced 底低中高顶 - Bottom, Low, Middle, High, Top with 1, 2, 3, 4, and 5.
+
+2. I replaced all missing data, whether it says "nan" or "unknown" with *0*.
+
+3. I deleted URL, ID, Community ID which wouldn't affect housing prices.
