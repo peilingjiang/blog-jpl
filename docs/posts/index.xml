@@ -16,7 +16,8 @@
       <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/housing-price/</guid>
-      <description>After a long time wandering in Kaggle and OpenML, I finally decided to choose the dataset of Housing price in Beijing (Housing price of Beijing from 2011 to 2017, fetching from Lianjia.com.) from Kaggle as the data I&amp;rsquo;m to collect, wrangle and build on for this week&amp;rsquo;s assignment.
+      <description>This page is a composite of Assignment 4a and 4b.
+ The Dataset After a long time wandering in Kaggle and OpenML, I finally decided to choose the dataset of Housing price in Beijing (Housing price of Beijing from 2011 to 2017, fetching from Lianjia.com.) from Kaggle as the data I&amp;rsquo;m to collect, wrangle and build on for this week&amp;rsquo;s assignment.
 My interests and curiosity of housing price might be arisen by Ekene Ijeoma&amp;rsquo;s Wage Islands: Immigrants project - a sculpture to visualize where low-wage immigrant workers can afford to rent in NYC.</description>
     </item>
     
