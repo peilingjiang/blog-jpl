@@ -2,6 +2,7 @@ baseURL = 'https://blog.jpl.design'
 title = 'JPL BLOG'
 theme = 'book'
 disableKinds = ['taxonomy', 'taxonomyTerm']
+googleAnalytics = "UA-133943899-2"
 # themesDir = '../..'
 
 # Book configuration
@@ -46,5 +47,3 @@ pygmentsCodeFences = true
   # (Optional, default true) Enables search function with lunr.js,
   # Index is built on fly, therefore it might slowdown your website.
   BookSearch = true
-
-googleAnalytics = "UA-133943899-2"

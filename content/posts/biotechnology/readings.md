@@ -10,6 +10,109 @@ bookToc: true
 
 # Readings
 
+## Scale Matters
+-- A Fantasy of Gene Drive
+
+<img src="/biotechnology/scale_matters/jaws.jpg" alt="Still of Movie Jaws" width="100%" >
+<caption>Jaws (1975). Steven Spielberg. IMDB.</caption>
+
+<br>
+
+{{< hint >}}
+**What if** we can modify scales of creatures with Gene Drive?
+{{< /hint >}}
+
+<br>
+
+{{< figure src="/biotechnology/scale_matters/growth_gene.png" alt="Growth Gene" width="100%" >}}
+
+### How we grow?
+
+The GH1 gene provides instructions for making the growth hormone protein. Growth hormone is produced in the growth-stimulating somatotropic cells of the pituitary gland, which is located at the base of the brain. Growth hormone is necessary for the normal growth of the body's bones and tissues. The production of growth hormone is triggered when two other hormones are turned on (activated): ghrelin, which is produced in the stomach; and growth hormone releasing hormone, which is produced in a part of the brain called the hypothalamus. Ghrelin and growth hormone releasing hormone also stimulate the release of growth hormone from the pituitary gland. The release of growth hormone into the body peaks during puberty and reaches a low point at about age 55.
+
+Cells in the liver respond to growth hormone and trigger the production of a protein called insulin-like growth factor-I (IGF-I). This protein stimulates cell growth and cell maturation (differentiation) in many different tissues, including bone. The production of IGF-I by the actions of growth hormone is a major contributor to the promotion of growth.
+
+Growth hormone also plays a role in many chemical reactions (metabolic processes) in the body. By acting on specific tissues, growth hormone is involved in protein production and the breakdown (metabolism) of fats and carbohydrates.
+
+### What is Teacup dog?
+
+Teacup dogs are animals that have been bred to be as small as humanly—or shall we say caninely—possible. Most dogs considered to be teacups weigh 5 pounds or less, says Los Angeles-based veterinarian Dr. Patrick Mahaney. You’ll find teacup versions of many already-small dog breeds, including teacup Poodles, teacup Pugs, and teacup Yorkies. Other popular teacup breeds include Maltese, Pomeranians, and Shih Tzus.
+
+To create teacup dogs, breeders pair the so-called “runts” of the litters to make the smallest animal possible, says Dr. Cathy Meeks, a board-certified internal medicine specialist and a group medical director at BluePearl Veterinary Partners in Tampa, Florida. But sometimes the dogs selected for breeding are small because of a birth defect or other medical condition.
+
+Doctors say common health issues for teacup dogs include *hypoglycemia*, *heart defects*, *collapsing trachea*, *seizures*, *respiratory problems*, *digestive problems*, and *blindness*. The breeding practices can also lead to an increased risk for *liver shunts*, says Meeks. Liver shunts are often congenital birth defects in dogs that affect the liver’s ability to flush out toxins.
+
+**20% of teacup dogs die within 3 month after birth.**
+
+### Stage one
+
+{{< hint >}}
+We, with Gene Drive, make tiny pets everywhere in the cities.
+{{< /hint >}}
+
+<img src="/biotechnology/scale_matters/stage_1.png" alt="Stage One Effects" width="450px" >
+
+Nowadays, people are already "crazy" about tiny animals that are pet-able in home. However, these teacup-sized dogs or cats have severe health problems, with unmatured organs and bones, and not well developed intelligence. With Gene Drive, however, by controlling GH1 that controls body growth only, and the genes producing hormone that controls the releasing and distributing Growth Hormone, we can thus determinedly make animals smaller by stopping their bone and muscle growth, while keeping the development and maturation of their organs.
+
+Z generation youngsters are already obsessed with those small and cute petty doggy and catty. With Gene Drive, however, we could make even more animals - horse, pig, eagle, or cow - pet-able and available for people to choose from, by just making them smaller. Even for traditional pet industries, tight living space for most of citizens and limited expenses people have will all persuade people from planning to raise a full-scale pet. And tiny, growth-controlled animals might be a better choice.
+
+- **A Huge Growth of Pet industry and Pet Care Industry**<br>
+There're more than enough reasons for people to do it. The current pet industry is 75 billion dollars (2018), and pet care industry is estimated 225 billion dollars this year (2019). And these are only with dogs and cats as "main-stream" pets. We can never imagine how the market would grow with much more "interesting" species being pets. Also, tiny pets are inevitably weaker and easier to get hurt, and we can see a even greater growth in the pet care industry. Zoologists will start to find jobs as veterinaries.
+
+- **More Homeless Abandoned Pets**
+- **More Wild Animal Caught for Experiments**
+
+### Stage Two
+
+{{< hint >}}
+We, with Gene Drive, breed scale-modified animals everywhere, from city to countryside.
+{{< /hint >}}
+
+<img src="/biotechnology/scale_matters/stage_2.png" alt="Stage Two Effects" width="450px" >
+
+Then there’s no reason that we shouldn’t apply this technology to the whole ecosystem and all potentially-benefited industries. If we wanted, we could open the encyclopedia of all species on this planet, and adjust their height and weight based on our own needs: make them more beneficial to us, or less dangerous for small and weak people. The whole ecosystem will have to suffer a major change of every part of it.
+
+Animal husbandry, such as breeding of pig and cow, might be benefited from it by having bigger livestock with higher weight-surface ratio. If indeterminate growers such as sharks and crocodiles, we could simply terminate their growth at any age we’d like to, and avoid potential danger. For  alien invasive species, we could also make them less competitive than original breeds by making them smaller and weaker. (This might be a slower process since smaller individuals are also more likely to be less appealing to get opportunities to breed. People might need to progressively shrink their body.)
+
+### Stage Three
+
+{{< hint >}}
+We, with Gene Drive, make ourselves smaller and bigger.
+{{< /hint >}}
+
+<img src="/biotechnology/scale_matters/stage_3.png" alt="Stage Three Effects" width="450px" >
+
+The final stage of this carnival is the re-scaling of the scaler: human beings. After being benefited from the re-scaled world of other species, we can never hold back our desire and temptation to re-scale ourselves to take full advantage of this technology. Being high will no longer be a semi-predictable characteristic of our body, but a priceable commodity for people to differentiate themselves from others. The whole society, and its game rules, will be restructured. We’ll see giants and dwarves in our life doing different works.
+
+- **A Clear and Lawful Social Class Division**<br>
+As we'll have very different appearance - not in a way of aesthetics but strength, height, and capabilities, it's hard not to have new laws and regulations for this newly formed society. Lower class people will be assigned to specific jobs and genetically modified to specific height tuned for that job. For example, coal digging or programming both doesn't require being tall, and short people save employers' space. We'll eventually find "perfect scale" for people to do specific jobs, and people with or without the wanted gene will be very hard to switch their jobs, to get a different pay, and make a different life. This will be the start of Genetic Discrimination.
+
+- **The Difference Will Be More and More Prominent**<br>
+Growth gene is accumulative. So after Gene Drive, not only all the accessors will maintain the height, but also will they become taller and taller, or shorter and shorter, based on the gene from parents. The class divisions will only be solidified.
+
+- **Scale Can Be Controlled As a Whole, but Also As Parts**<br>
+We’ll also target hormone differently to specific parts of the body.
+
+***
+
+The reason why I divide the whole process into three stages is that we, human, will definitely inevitably go through all the periods once the technology is accessible to us. And with three differentiated stages, we could see a clearer clue of how the progress of technology, mixed with desire and the taste if this commodity society, might affect our community in either good or bad ways. The whole story starts from a simple and leisure request from normal citizens, and it could potentially develop to a catastrophe for the whole society and ecosystem. From one stage to another, you'll always find it reasonable, however, when looking back from the third stage to the status quo, you'll find how crazy and pathological things we've done.
+
+### Reference
+
+1. [Which Animals Never Stop Growing?](https://www.seeker.com/which-animals-never-stop-growing-1792674648.html)
+2. [The Truth About Teacup Dogs](https://www.petmd.com/dog/general-health/truth-about-teacup-dogs)
+3. [GH1 gene](https://ghr.nlm.nih.gov/gene/GH1)
+4. [Graphical representation of phenotype/gene relationship(s) associated with GH1](https://omim.org/graph/linear/139250)
+5. [Why were so many prehistoric animals so big?](https://animals.howstuffworks.com/extinct-animals/why-were-prehistoric-animals-big.htm)
+6. [The Biggest Trends In The Pet Industry](https://www.forbes.com/sites/richardkestenbaum/2018/11/27/the-biggest-trends-in-the-pet-industry/#5bb4f9e6f099)
+7. [Pet Industry Market Size & Ownership Statistics](https://www.americanpetproducts.org/press_industrytrends.asp)
+8. [Moose in Canada](https://www.thecanadianencyclopedia.ca/en/article/moose)
+9. [Can evolution be predicted? For at least one important biological trait—body size—the answer appears to be yes.](https://www.futurity.org/animal-size-evolution-860892/)
+10. [Pet Satisfaction among Dog Owners](https://apps.webofknowledge.com/full_record.do?product=WOS&search_mode=GeneralSearch&qid=3&SID=5CBPcg5pLuKeFY79axM&page=1&doc=6)
+11. [Isolated growth hormone deficiency](https://ghr.nlm.nih.gov/condition/isolated-growth-hormone-deficiency)
+12. [Top 10 Cutest Teacup Dogs That Can Fit in Your Pocket](https://www.wideopenpets.com/top-10-cutest-teacup-dogs/)
+13. [If You Love Animals, Never Buy A Teacup Dog](https://www.thedodo.com/teacup-dogs-health-1541700892.html)
+
 ## Week Three
 
 We can never overestimate the power of fundamentals: microscope, a concept from 500 years ago, still serves as an essential equipment for biology experiments, plays an unreplaceable role of bringing younger generations into the field, and inspires the invention of its successor including transmission electron microscopy (TEM) as well as scanning electron microscopy (SEM), which enable modern research of much smaller scale biotechnologies. As far as I'm concerned, one fact that isolated biology apart from other *science* was that, for a long time, we couldn't find one **formula** or **law** to summarize the rule of the world of *life* - like Newton or Gaussian's laws. And the discovery of gene was definitely a break-through. Thanks to microscopy, we could see smaller things and dig deeper. In addition to Microscopy, are there other concepts in life science area that that also had inspired us to achieve what we achieved?
