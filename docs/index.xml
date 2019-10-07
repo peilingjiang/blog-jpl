@@ -10,6 +10,16 @@
     
     
     <item>
+      <title>Dancing Glow</title>
+      <link>https://blog.jpl.design/posts/machine-learning-for-the-arts/dancing-glow/</link>
+      <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/dancing-glow/</guid>
+      <description>Your browser does not support the video tag.This week I tried real-time data collection and multiple, different types of inputs and output with the new Neural Network feature of ml5.js. Dancing Glow, as a result, is a visual project in which lines following the body will change to different colors according to body positions as trained. Here&amp;rsquo;s the LINK to the p5 web editor.
+Train Data Collection I set up and used two models in this project - one is &#39;regression&#39; model that trains the program to predict the color of any given poses; another one is &#39;classification&#39; model that trains the program to distinguish normal poses to emit pose, when posing which the glowing colors will emit to the surroundings.</description>
+    </item>
+    
+    <item>
       <title>Housing Price</title>
       <link>https://blog.jpl.design/posts/machine-learning-for-the-arts/housing-price/</link>
       <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
@@ -39,7 +49,7 @@ Using Wrap3 and a base mesh, I re-meshed my scanned model and made it closed, le
       <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/violinist/</guid>
       <description>UPDATE: The name of the project has been changed to Guitarist!
  Group Project with Heather Kim
-Violinist enables user to play violin (or potentially any type of instrument) by just posing as they are playing it. This simple have-a-try project is based on p5.js, ml5.js, and poseNet, and help us understand the basic use of poseNet and p5.serialControl. Here&amp;rsquo;s the link to p5 web app (p5.serialControl and Arduino required).</description>
+Violinist enables user to play violin (or potentially any type of instrument) by just posing as they are playing it. This simple have-a-try project is based on p5.js, ml5.js, and poseNet, and help us understand the basic use of poseNet and p5.serialControl. Here&amp;rsquo;s the LINK to p5 web app (p5.serialControl and Arduino required).</description>
     </item>
     
     <item>
@@ -72,7 +82,7 @@ My partner held the iPad and scanned me for 3 times while the first trail was a 
       
       <guid>https://blog.jpl.design/posts/machine-learning-for-the-arts/apple/</guid>
       <description>🍎🥮🐟🍊🍳🍞🍗🍔🍟🥔🍚🥘💣
-aPPle! is a webcam game powered by p5.js and ml5.js. In the game, various kinds of food will fly into the screen and the player need to choose only healthy food, that helps to lose weight, to eat. The player also need to dodge bombs flying into the screen from time to time. Office chair with wheels is recommended to use for playing. Here&amp;rsquo;s the link to play on p5 web editor.</description>
+aPPle! is a webcam game powered by p5.js and ml5.js. In the game, various kinds of food will fly into the screen and the player need to choose only healthy food, that helps to lose weight, to eat. The player also need to dodge bombs flying into the screen from time to time. Office chair with wheels is recommended to use for playing. Here&amp;rsquo;s the LINK to play on p5 web editor.</description>
     </item>
     
     <item>

@@ -10,7 +10,7 @@ bookToc: true
 
 🍎🥮🐟🍊🍳🍞🍗🍔🍟🥔🍚🥘💣
 
-**aPPle!** is a webcam game powered by p5.js and ml5.js. In the game, various kinds of food will fly into the screen and the player need to choose only healthy food, that helps to lose weight, to eat. The player also need to dodge bombs flying into the screen from time to time. Office chair with wheels is recommended to use for playing. Here's the [**link**](https://editor.p5js.org/peilingjiang/full/043oUt7_c) to play on p5 web editor.
+**aPPle!** is a webcam game powered by p5.js and ml5.js. In the game, various kinds of food will fly into the screen and the player need to choose only healthy food, that helps to lose weight, to eat. The player also need to dodge bombs flying into the screen from time to time. Office chair with wheels is recommended to use for playing. Here's the [**LINK**](https://editor.p5js.org/peilingjiang/full/043oUt7_c) to play on p5 web editor.
 
 # Game
 

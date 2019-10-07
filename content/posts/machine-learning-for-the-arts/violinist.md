@@ -12,7 +12,7 @@ bookToc: true
 
 Group Project with Heather Kim
 
-_Violinist_ enables user to play violin (or potentially any type of instrument) by just posing as they are playing it. This simple have-a-try project is based on p5.js, ml5.js, and poseNet, and help us understand the basic use of poseNet and p5.serialControl. Here's the [**link**](https://editor.p5js.org/peilingjiang/full/eguZUH4Xb) to p5 web app (p5.serialControl and Arduino required).
+_Violinist_ enables user to play violin (or potentially any type of instrument) by just posing as they are playing it. This simple have-a-try project is based on p5.js, ml5.js, and poseNet, and help us understand the basic use of poseNet and p5.serialControl. Here's the [**LINK**](https://editor.p5js.org/peilingjiang/full/eguZUH4Xb) to p5 web app (p5.serialControl and Arduino required).
 
 ## poseNet() in p5.js
 
