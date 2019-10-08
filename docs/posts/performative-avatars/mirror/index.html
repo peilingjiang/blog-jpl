@@ -30,14 +30,14 @@ if (!doNotTrack) {
 }
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
-<meta property="og:title" content="aPPle!" />
-<meta property="og:description" content="🍎🥮🐟🍊🍳🍞🍗🍔🍟🥔🍚🥘💣
-aPPle! is a webcam game powered by p5.js and ml5.js. In the game, various kinds of food will fly into the screen and the player need to choose only healthy food, that helps to lose weight, to eat. The player also need to dodge bombs flying into the screen from time to time. Office chair with wheels is recommended to use for playing. Here&rsquo;s the LINK to play on p5 web editor." />
+<meta property="og:title" content="Mirror" />
+<meta property="og:description" content="I experimented basic sequencer and related video making features with Mirror, a one-minute short clip. During the process, material making, planar reflections, blending animations, and Unreal Engine sequencer were tired, broken, fixed, broken again, fixed again, and finally helped me make the video possible.
+With former experience of Premiere and DaVinci, I would say the sequencer part is not the hardest to understand. However, the material of mirror, or any kinds of reflective material, really took me hours to make." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.jpl.design/posts/machine-learning-for-the-arts/apple/" />
-<meta property="article:published_time" content="2019-09-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-10-07T05:50:54-04:00" />
-<title>aPPle! | JPL BLOG</title>
+<meta property="og:url" content="https://blog.jpl.design/posts/performative-avatars/mirror/" />
+<meta property="article:published_time" content="2019-10-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-10-08T00:00:00+00:00" />
+<title>Mirror | JPL BLOG</title>
 
 
 <link rel="stylesheet" href="/book.min.69c6f73d332617241396ee984e8ecadd07f14c322bbef74fbcf0fa269dfb25ac.css" integrity="sha256-acb3PTMmFyQTlu6YTo7K3QfxTDIrvvdPvPD6Jp37Jaw=">
@@ -99,7 +99,7 @@ if (!doNotTrack) {
   
 
   <style>
-  nav ul a[href$="\2fposts\2fmachine-learning-for-the-arts\2f apple\2f "] {
+  nav ul a[href$="\2fposts\2fperformative-avatars\2fmirror\2f "] {
       color: #00d1ff;
   }
   </style>
@@ -168,174 +168,37 @@ line-height: 150%;
   <label for="menu-control">
     <img src="/svg/menu.svg" alt="Menu" />
   </label>
-  <strong>aPPle!</strong>
+  <strong>Mirror</strong>
 </header>
 
       
 
 <header class="markdown">
-  <h1>aPPle!</h1>
+  <h1>Mirror</h1>
   <h5>
-    <strong>Sep 15, 2019</strong>
+    <strong>Oct 8, 2019</strong>
   </h5>
 </header>
-<article class="markdown">
+<article class="markdown"><p><img src="/performative-avatar/mirror/cover.png" alt="Cover" width="100%"></p>
 
-<p>🍎🥮🐟🍊🍳🍞🍗🍔🍟🥔🍚🥘💣</p>
+<p>I experimented basic sequencer and related video making features with Mirror, a one-minute short clip. During the process, material making, planar reflections, blending animations, and Unreal Engine sequencer were tired, broken, fixed, broken again, fixed again, and finally helped me make the video possible.</p>
 
-<p><strong>aPPle!</strong> is a webcam game powered by p5.js and ml5.js. In the game, various kinds of food will fly into the screen and the player need to choose only healthy food, that helps to lose weight, to eat. The player also need to dodge bombs flying into the screen from time to time. Office chair with wheels is recommended to use for playing. Here&rsquo;s the <a href="https://editor.p5js.org/peilingjiang/full/043oUt7_c"><strong>LINK</strong></a> to play on p5 web editor.</p>
+<p>With former experience of Premiere and DaVinci, I would say the sequencer part is not the hardest to understand. However, the material of mirror, or any kinds of reflective material, really took me hours to make. And the final outcome is still not what was in my mind before I got my hands on the software.</p>
 
-<h1 id="game">Game</h1>
+<p><img src="/performative-avatar/mirror/mirror_error.png" alt="Error Mirror" width="100%"></p>
 
-<p>The idea comes from my struggle of keeping a diet. There&rsquo;re so many kinds of food that potentially contain a great many of calories and we need to distinguish them from the healthy ones.</p>
+<p>The blueprint script of the material, though, is more than simple. However, just to understand the planar reflection is not an object that can be directly rendered in the video, but a “guide” for reflective materials to capture the surroundings took me more than an hour, with several unusable clips rendered. Then a laundry list of parameters to be adjusted took another hour.</p>
 
-<p>The screen is divided into three sections: Left, Center, and Right. And the food can be eaten by the user when flying to the middle of each section.</p>
-
-<p><img src="/machine-learning-arts/apple/game_intro.png" alt="Game Introduction" width="100%" ></p>
-
-<h2 id="winning-conditions">Winning conditions</h2>
-
-<p>The player need to eat enough healthy food to win the game while avoid eating junk or high carbohydrate food. Different food has different &ldquo;bonus&rdquo; or &ldquo;penalty&rdquo;. Since it&rsquo;s a game helping me losing weight (itself involves a lot of workout when playing), the bonus will <strong>take off</strong> numbers of a preset goal and the player will win when the number is zero.</p>
-
-<table>
-<thead>
-<tr>
-<th>Food</th>
-<th>Bonus (-)</th>
-<th>Food</th>
-<th>Penalty (+)</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>🍎 Apple</td>
-<td>-20, trigger BoostShoot</td>
-<td>🥘 Hotpot</td>
-<td>+20</td>
-</tr>
-
-<tr>
-<td>🥮 Mooncake</td>
-<td>-10</td>
-<td>🍗 Chicken</td>
-<td>+10</td>
-</tr>
-
-<tr>
-<td>🐟 Fish</td>
-<td>-10</td>
-<td>🥔 Potato</td>
-<td>+10</td>
-</tr>
-
-<tr>
-<td>🍊 Tangerine</td>
-<td>-5</td>
-<td>🍔 Burger</td>
-<td>+5</td>
-</tr>
-
-<tr>
-<td>🍳 Egg</td>
-<td>-5</td>
-<td>🍟 Fries</td>
-<td>+5</td>
-</tr>
-
-<tr>
-<td>🍞 Bread</td>
-<td>-5</td>
-<td>🍚 Rice</td>
-<td>+5</td>
-</tr>
-</tbody>
-</table>
-
-<p>Also, the player need to dodge the bomb flying into the screen. The setting increases the hardness and playfulness (and workout) of the game.</p>
-
-<video preload="auto" controls width="100%">
-  <source src="/machine-learning-arts/apple/apple_game.mp4" type="video/mp4">
-  <source src="/machine-learning-arts/apple/apple_game.mp4" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
+<p><img src="/performative-avatar/mirror/final_sequencer.png" alt="Final Sequencer" width="100%"></p>
 
 
-<h2 id="constrains">Constrains</h2>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/365015282" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
 
-<p>Teachable Machine is the technology behind the scene. However, this interface is incapable of training models that could recognize the position of a particular thing, in this case, my mouth. So I have to set a <strong>eating area</strong> at the middle of the screen and set 3 different body position labels. A more real game should detect the real-time position of the mouth and whether or not it&rsquo;s opening solely, and calculate the &ldquo;collision&rdquo; of the opening area and the food.</p>
-
-<h1 id="teachable-machine">Teachable Machine</h1>
-
-<h2 id="labels">Labels</h2>
-
-<p>The model used in the project is trained with Teachable Machine interface. There are <strong>7</strong> different labels in total for the machine to learn recognize:</p>
-
-<ul>
-<li>Left position with mouth closed</li>
-<li>Left position with mouth open</li>
-<li>Center position with mouth closed</li>
-<li>center position with mouth open</li>
-<li>Right position with mouth closed</li>
-<li>Right position with mouth open</li>
-<li>Player in the picture</li>
-</ul>
-
-<p>Mouth can be either open or close for 3 different body positions, and one more for no player in the frame (dodge). To make the model robust, I tried to include photos of me in different clothes, and also called my roommates to open and close their mouth in front of my webcam.</p>
-
-<h2 id="training">Training</h2>
-
-<figure>
-    <img src="/machine-learning-arts/apple/train_outcome.png"
-         alt="Train Interface" width="100%"/> 
-</figure>
-
-
-<p>In the end, each label has around 500 pictures to train and the training process takes around 10 minutes. While different body positions might be easy for the machine to learn, the opening and closing of the mouth, in other words, the most important part of the whole gaming experience, seemed hard for it to distinguish in this first version. I had to reduce the influencing factors that could have confused the model: making the background white and clean, stopping calling other people to be recorded, putting my head at the same height for all positions, and opening my mouth as big as possible during the recording - since machine learning models will always find &ldquo;the closest label,&rdquo; it shall be helpful to make different scenarios as unlike to each other as possible. The performance of the model then improved a lot.</p>
-
-<p><video preload="auto" controls width="100%">
-  <source src="/machine-learning-arts/apple/train_process.mp4" type="video/mp4">
-  <source src="/machine-learning-arts/apple/train_process.mp4" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
-
-<video preload="auto" controls width="100%">
-  <source src="/machine-learning-arts/apple/model_test.mp4" type="video/mp4">
-  <source src="/machine-learning-arts/apple/model_test.mp4" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
-</p>
-
-<p>However, having all different 7 labels is solely because the model trained with teachable machine can&rsquo;t locate the mouth. While <em>Train models on poses</em> has an interface with positioned eyes, nose and ears, but there&rsquo;s no way to directly gain data from it.</p>
-
-<h1 id="future-works">Future Works</h1>
-
-<p>This is my first p5.js project and my first game design. And it&rsquo;s still a beta. There&rsquo;re still a lot can be done but due to time and the scale of this weekly assignment that cannot be finished within the weekend. The future works include:</p>
-
-<ol>
-<li>Better sound effects and background music.</li>
-<li>Multiplayer system, and potential connection with the course Collective Play - two players play a same game on two computers sharing one food space.</li>
-<li>As mentioned in the constrains, current machine learning model is incapable of finding the position of the mouth thus I have to set 3 body positions and an eating area. The ideal gaming experience would be the user could decide and eat the food wherever on the screen by moving the mouth around.</li>
-</ol>
-
-<blockquote>
-<p>Media on this page is blurred due to privacy concerns.</p>
-</blockquote>
 </article>
 
       
-<div class="book-footer justify-between">
-  
-  <div>
-    
-    <a href="/commit/9fcc6cf02953925a59353704b2483a193e65a0fc" title='Last modified Oct 7, 2019 by Peiling Jiang' target="_blank" rel="noopener">
-      <img src="/svg/calendar.svg" alt="Changed" /> Oct 7, 2019
-    </a>
-  </div>
-  
-  
-</div>
-
 
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -353,24 +216,6 @@ line-height: 150%;
 
     
   
-
-  <aside class="book-toc level-true fixed">
-    <nav id="TableOfContents">
-<ul>
-<li><a href="#game">Game</a>
-<ul>
-<li><a href="#winning-conditions">Winning conditions</a></li>
-<li><a href="#constrains">Constrains</a></li>
-</ul></li>
-<li><a href="#teachable-machine">Teachable Machine</a>
-<ul>
-<li><a href="#labels">Labels</a></li>
-<li><a href="#training">Training</a></li>
-</ul></li>
-<li><a href="#future-works">Future Works</a></li>
-</ul>
-</nav>
-  </aside>
 
 
 

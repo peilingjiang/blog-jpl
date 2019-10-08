@@ -13,6 +13,7 @@ headless: true
   - [ImageNet]({{< relref "posts/machine-learning-for-the-arts/imagenet.md" >}})
   - [A Glance of AI]({{< relref "posts/machine-learning-for-the-arts/a-glance-of-ai.md" >}})
 - F19 **Performative Avatar**
+  - [Mirror]({{< relref "posts/performative-avatars/mirror.md" >}})
   - [Wrap]({{< relref "posts/performative-avatars/wrap.md" >}})
   - [itSeez3D]({{< relref "posts/performative-avatars/itseez3d.md" >}})
   - [I, Avatar]({{< relref "posts/performative-avatars/i-avatar.md">}})
