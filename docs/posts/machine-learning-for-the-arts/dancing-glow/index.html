@@ -38,23 +38,13 @@ Train Data Collection I set up and used two models in this project - one is &#39
 <meta property="article:published_time" content="2019-10-07T00:00:00+00:00" />
 <meta property="article:modified_time" content="2019-10-07T05:50:54-04:00" />
 <title>Dancing Glow | JPL BLOG</title>
-
-
-<link rel="stylesheet" href="/book.min.69c6f73d332617241396ee984e8ecadd07f14c322bbef74fbcf0fa269dfb25ac.css" integrity="sha256-acb3PTMmFyQTlu6YTo7K3QfxTDIrvvdPvPD6Jp37Jaw=">
-
-
-<script defer src="/search.min.3686ccf84236501dd5b6b46e4f1218eb65795d55995831d32331fc03de26b472.js" integrity="sha256-NobM&#43;EI2UB3VtrRuTxIY62V5XVWZWDHTIzH8A94mtHI="></script>
-
-
-
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<!--
-Made with Book Theme
-https://github.com/alex-shpak/hugo-book
--->
+<link rel="stylesheet" href="/book.min.e5eeaf7734ab7ac5a386da73f6a9eb90676f8f8dbfcf88201c777619ecf8a97a.css" integrity="sha256-5e6vdzSresWjhtpz9qnrkGdvj42/z4ggHHd2Gez4qXo=">
 
+
+<script defer src="/search.min.7aa61ff3816927abd05ddcaeeb31244d871e396c5705426b5a7a520dba4b449c.js" integrity="sha256-eqYf84FpJ6vQXdyu6zEkTYceOWxXBUJrWnpSDbpLRJw="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -67,6 +57,10 @@ if (!doNotTrack) {
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
 
   
 </head>
@@ -93,18 +87,7 @@ if (!doNotTrack) {
 
 
 
-    
-  
-  
-  
-
-  <style>
-  nav ul a[href$="\2fposts\2fmachine-learning-for-the-arts\2f dancing-glow\2f "] {
-      color: #00d1ff;
-  }
-  </style>
-
-<ul>
+    <ul>
 <li>F19 <strong>Biotechnology</strong>
 
 <ul>
@@ -114,7 +97,7 @@ if (!doNotTrack) {
 <li>F19 <strong>Machine Learning for the Arts</strong>
 
 <ul>
-<li><a href="/posts/machine-learning-for-the-arts/dancing-glow/">Dancing Glow</a></li>
+<li><a href="/posts/machine-learning-for-the-arts/dancing-glow/"class=active>Dancing Glow</a></li>
 <li><a href="/posts/machine-learning-for-the-arts/housing-price/">Housing Price</a></li>
 <li><a href="/posts/machine-learning-for-the-arts/violinist/">Violinist</a></li>
 <li><a href="/posts/machine-learning-for-the-arts/apple/">aPPle!</a></li>
@@ -132,8 +115,6 @@ if (!doNotTrack) {
 <li>F19 <strong>Terrarium Studio</strong></li>
 <li>F19 <strong>Typography Studio</strong></li>
 </ul>
-
-
 
 
 
@@ -215,12 +196,19 @@ line-height: 150%;
     <span style="color:#75715e">// Add to brain_2 as Emit category
 </span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">poses</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) {
         <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">poseInput</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">get_body_data</span>(<span style="color:#a6e22e">poses</span>);
-
         <span style="color:#a6e22e">brain_2</span>.<span style="color:#a6e22e">addData</span>(<span style="color:#a6e22e">poseInput</span>, [<span style="color:#e6db74">&#34;Emit&#34;</span>]);
     }
 }
 </code></pre></div>
+<p><br></p>
+
 <h3 id="mouth-switch">Mouth Switch</h3>
+
+<p><br></p>
+
+<p><img src="/machine-learning-arts/dancing-glow/face-switch.jpg" alt="Face Switch" width="100%"></p>
+
+<p><br></p>
 
 <p>Another interesting thing, which you might have noticed, is that I open and close my mouth as the switch of data collection. We all know about the 3..2..1.. countdown, which is decent and boring. Here instead I use face-api.js (a built-in library of ml5.js) to track the points of my mouth and calculate the distances of several signature points to get to know whether I&rsquo;m opening my mouth or not, thus if to collect the pose data.</p>
 
@@ -266,10 +254,89 @@ __proto__: Array(0)
 
 <p>At the top of the interface are <em>add color class button</em> for adding more color classes, <em>add data for emit class button</em>, <em>add data for color class button</em>, and <em>train! button</em>. Since the project involves multiple library and the training of more than one model, I added a section of status feedback for users to know about the progress more easily. Below the video are status reports of the loading of libraries and training of the model - <em>grey</em> means not start yet, <em>yellow</em> means in-progress, and <em>green</em> means finished.</p>
 
+<p>Since the person collecting the data will pose and be away from the screen during the data collection, text or icon could be hard for them to read or distinguish. Thus a green tint would be applied to the whole video area once the model detected the mouth opening and data being collected.</p>
+
+<h2 id="save-and-upload">Save and Upload</h2>
+
+<p>(Updated in Oct. 14th, 2019) Then I added the latest save/load data and model features of ml5.neuralNetwork. It would then be much easier for people to reuse collected pose data to try different training options or to use trained model on different devices.</p>
+
+<p><img src="/machine-learning-arts/dancing-glow/download.png" alt="Download Buttons" width="100%"></p>
+
+<p>The <code>↓data</code> button can be activated only when proper data are collected, and 2 files will be downloaded afterwards:</p>
+
+<pre><code>&gt;&gt;&gt; From Brain 1
+poses_data_for_color.json
+&gt;&gt;&gt; From Brain 2
+poses_data_for_emit.json
+</code></pre>
+
+<p>The <code>↓model</code> button can be activated only after the model is trained, and in this project, six files will be downloaded, 3 for each &ldquo;brain&rdquo;.</p>
+
+<pre><code>model_meta.json
+model.json
+model.weights.bin
+</code></pre>
+
+<p>Then I want to load the downloaded data to another window with a untrained model. Since I want the data also be reflected to the interface explicitly instead of just being added silently, after calling <code>.loadData()</code> function, I also have the program run through the original .json file and add them to the displayed classes.</p>
+
+<h3 id="not-working">Not working</h3>
+
+<p>What I want is when the user drop a .json file on the canvas, the program will read and load the file, load them into brain 1 or 2, and reflect on the interface. As the <code>canvas.drop(gotFile)</code> examples in p5 documentation, the code goes as:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">gotFile</span>(<span style="color:#a6e22e">file</span>) {
+    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">file</span>.<span style="color:#a6e22e">subtype</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;json&#34;</span>) {
+        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">dataFile</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">loadJSON</span>(<span style="color:#a6e22e">file</span>.<span style="color:#a6e22e">data</span>);
+        <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">file</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;poses_data_for_color.json&#34;</span>) {
+            <span style="color:#a6e22e">brain_1</span>.<span style="color:#a6e22e">loadData</span>(<span style="color:#a6e22e">file</span>.<span style="color:#a6e22e">data</span>, <span style="color:#a6e22e">dataLoaded</span>); <span style="color:#75715e">// Not sure if is working
+</span><span style="color:#75715e"></span>
+            <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">dataFile</span>); <span style="color:#75715e">// Console print an object
+</span><span style="color:#75715e"></span>            <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">dataFile</span>[<span style="color:#e6db74">&#39;data&#39;</span>]); <span style="color:#75715e">// Console print undefined
+</span><span style="color:#75715e"></span>        } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">file</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;poses_data_for_emit.json&#34;</span>) {
+            <span style="color:#a6e22e">brain_2</span>.<span style="color:#a6e22e">loadData</span>(<span style="color:#a6e22e">file</span>.<span style="color:#a6e22e">data</span>, <span style="color:#a6e22e">dataLoaded</span>);
+        } <span style="color:#66d9ef">else</span> {
+            <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;File Name Error&#39;</span>);
+        }
+    } <span style="color:#66d9ef">else</span> {
+        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;File Type Error&#39;</span>);
+    }
+}
+</code></pre></div>
+<p>Here&rsquo;s what I got when console print <em>file</em> from <code>gotFile(file)</code>, and <em>dataFile</em> which is <code>loadJSON(file.data)</code>:</p>
+
+<pre><code>&gt;&gt;&gt; file
+&gt;Object {
+  &gt;file: File,
+  &gt;_pInst: undefined,
+  &gt;type: &quot;application&quot;, subtype: &quot;json&quot;,
+  &gt;name: &quot;poses_data_for_color.json&quot;, size: 33447,
+  &gt;data: &quot;data:application/json;base64,eyJkYXRhIjpbeyJ4cyI6eyJpbnB1dDAiOjM4N…&quot; }
+
+&gt;&gt;&gt; loadJSON(file.data)
+&gt;{}
+  &gt;data: Array(43) [ {…}, {…}, {…}, … ]
+  &gt;&lt;prototype&gt;: Object { … }
+</code></pre>
+
+<p>While the <code>loadJSON(file.data)</code> output looks pretty good, an object holding an array of <code>{xs: {…}, ys: {…}}</code>, I tried all kinds of extracting methods including <code>dataFile['data']</code>, <code>dataFile[data]</code>, <code>dataFile.data</code>, <code>dataFile[0]</code>&hellip; and none of them worked.</p>
+
+<blockquote>
+<p>The <a href="/machine-learning-arts/dancing-glow/poses_data_for_color.json" target="blank">.json file</a> downloaded from a previous model for loading.<br>
+The <a href="https://editor.p5js.org/peilingjiang/full/YPajZ2pZn">LINK</a> to the p5 web editor of the second beta of the project.</p>
+</blockquote>
+
+<h2 id="quick-draw-reflection">Quick, Draw! Reflection</h2>
+
+<blockquote>
+<p><a href="https://github.com/googlecreativelab/quickdraw-dataset">Quick, Draw! Dataset</a></p>
+</blockquote>
+
+<p>Since all the images that are included in the dataset were submitted voluntarily by users and being low resolution and fidelity with minimal black lines, it’s hard for them to contain any confidential information. However, while the lines are so simple, what amazed me is that researchers can still identify tiny traces underlining the drawings including the directions of drawing a circle, which could disclose the nationality or the language the user is used to writing. The fact makes me doubt again about how could we protect our privacy in the era of AI and machine learning.</p>
+
+<p>While the dataset is open-sourced, there are tasks and areas the data should not be used for. General speaking, according to Datasheet for Dataset, the use of AI in the areas of criminal justice, hiring, critical infrastructure, or finance is still doubtful. What’s more, the usages that could disclosure the personality or identity of individuals should also be limited whether or not there would be a potential harm to the person.</p>
+
 <h2 id="feature-works">Feature Works</h2>
 
 <ol>
-<li><p>Fix the bug of <code>'classification'</code> model. As mentioned before, the classification brain is not working and currently I don&rsquo;t know if it&rsquo;s a bug from ml5 or my own code.</p></li>
+<li><p>Fix the bug of <code>'classification'</code> model. As mentioned before, the classification brain is not working and currently I don&rsquo;t know if it&rsquo;s a bug from ml5 or my own code. <strong>(Fixed)</strong></p></li>
 
 <li><p>A better output visualization, and interface design.</p></li>
 </ol>
@@ -280,8 +347,9 @@ __proto__: Array(0)
   
   <div>
     
-    <a href="/commit/9fcc6cf02953925a59353704b2483a193e65a0fc" title='Last modified Oct 7, 2019 by Peiling Jiang' target="_blank" rel="noopener">
-      <img src="/svg/calendar.svg" alt="Changed" /> Oct 7, 2019
+    <a class="flex align-center" href="/commit/9fcc6cf02953925a59353704b2483a193e65a0fc" title='Last modified Oct 7, 2019 by Peiling Jiang' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" alt="Changed" />
+      <span>Oct 7, 2019</span>
     </a>
   </div>
   
@@ -318,6 +386,11 @@ __proto__: Array(0)
 <li><a href="#classification">Classification</a></li>
 </ul></li>
 <li><a href="#interface">Interface</a></li>
+<li><a href="#save-and-upload">Save and Upload</a>
+<ul>
+<li><a href="#not-working">Not working</a></li>
+</ul></li>
+<li><a href="#quick-draw-reflection">Quick, Draw! Reflection</a></li>
 <li><a href="#feature-works">Feature Works</a></li>
 </ul></li>
 </ul>

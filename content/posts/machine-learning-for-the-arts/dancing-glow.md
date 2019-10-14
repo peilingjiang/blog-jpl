@@ -39,13 +39,20 @@ function addExample_2() {
     // Add to brain_2 as Emit category
     if (poses.length > 0) {
         let poseInput = get_body_data(poses);
-
         brain_2.addData(poseInput, ["Emit"]);
     }
 }
 ```
 
+<br>
+
 ### Mouth Switch
+
+<br>
+
+<img src="/machine-learning-arts/dancing-glow/face-switch.jpg" alt="Face Switch" width="100%">
+
+<br>
 
 Another interesting thing, which you might have noticed, is that I open and close my mouth as the switch of data collection. We all know about the 3..2..1.. countdown, which is decent and boring. Here instead I use face-api.js (a built-in library of ml5.js) to track the points of my mouth and calculate the distances of several signature points to get to know whether I'm opening my mouth or not, thus if to collect the pose data.
 
@@ -91,8 +98,89 @@ The interface for user to collect data and train the model is another focus of t
 
 At the top of the interface are *add color class button* for adding more color classes, *add data for emit class button*, *add data for color class button*, and *train! button*. Since the project involves multiple library and the training of more than one model, I added a section of status feedback for users to know about the progress more easily. Below the video are status reports of the loading of libraries and training of the model - *grey* means not start yet, *yellow* means in-progress, and *green* means finished.
 
+Since the person collecting the data will pose and be away from the screen during the data collection, text or icon could be hard for them to read or distinguish. Thus a green tint would be applied to the whole video area once the model detected the mouth opening and data being collected.
+
+## Save and Upload
+
+(Updated in Oct. 14th, 2019) Then I added the latest save/load data and model features of ml5.neuralNetwork. It would then be much easier for people to reuse collected pose data to try different training options or to use trained model on different devices.
+
+<img src="/machine-learning-arts/dancing-glow/download.png" alt="Download Buttons" width="100%">
+
+The `↓data` button can be activated only when proper data are collected, and 2 files will be downloaded afterwards:
+
+```
+>>> From Brain 1
+poses_data_for_color.json
+>>> From Brain 2
+poses_data_for_emit.json
+```
+
+The `↓model` button can be activated only after the model is trained, and in this project, six files will be downloaded, 3 for each "brain".
+
+```
+model_meta.json
+model.json
+model.weights.bin
+```
+
+Then I want to load the downloaded data to another window with a untrained model. Since I want the data also be reflected to the interface explicitly instead of just being added silently, after calling `.loadData()` function, I also have the program run through the original .json file and add them to the displayed classes.
+
+### Not working
+
+What I want is when the user drop a .json file on the canvas, the program will read and load the file, load them into brain 1 or 2, and reflect on the interface. As the `canvas.drop(gotFile)` examples in p5 documentation, the code goes as:
+
+```js
+function gotFile(file) {
+    if (file.subtype === "json") {
+        const dataFile = loadJSON(file.data);
+        if (file.name == "poses_data_for_color.json") {
+            brain_1.loadData(file.data, dataLoaded); // Not sure if is working
+
+            console.log(dataFile); // Console print an object
+            console.log(dataFile['data']); // Console print undefined
+        } else if (file.name == "poses_data_for_emit.json") {
+            brain_2.loadData(file.data, dataLoaded);
+        } else {
+            console.log('File Name Error');
+        }
+    } else {
+        console.log('File Type Error');
+    }
+}
+```
+
+Here's what I got when console print *file* from `gotFile(file)`, and *dataFile* which is `loadJSON(file.data)`:
+
+```
+>>> file
+>Object {
+  >file: File,
+  >_pInst: undefined,
+  >type: "application", subtype: "json",
+  >name: "poses_data_for_color.json", size: 33447,
+  >data: "data:application/json;base64,eyJkYXRhIjpbeyJ4cyI6eyJpbnB1dDAiOjM4N…" }
+
+>>> loadJSON(file.data)
+>{}
+  >data: Array(43) [ {…}, {…}, {…}, … ]
+  ><prototype>: Object { … }
+```
+
+While the `loadJSON(file.data)` output looks pretty good, an object holding an array of `{xs: {…}, ys: {…}}`, I tried all kinds of extracting methods including `dataFile['data']`, `dataFile[data]`, `dataFile.data`, `dataFile[0]`... and none of them worked.
+
+> The <a href="/machine-learning-arts/dancing-glow/poses_data_for_color.json" target="blank">.json file</a> downloaded from a previous model for loading.<br>
+> The [LINK](https://editor.p5js.org/peilingjiang/full/YPajZ2pZn) to the p5 web editor of the second beta of the project.
+
+## Quick, Draw! Reflection
+
+> [Quick, Draw! Dataset](https://github.com/googlecreativelab/quickdraw-dataset)
+
+Since all the images that are included in the dataset were submitted voluntarily by users and being low resolution and fidelity with minimal black lines, it’s hard for them to contain any confidential information. However, while the lines are so simple, what amazed me is that researchers can still identify tiny traces underlining the drawings including the directions of drawing a circle, which could disclose the nationality or the language the user is used to writing. The fact makes me doubt again about how could we protect our privacy in the era of AI and machine learning.
+
+While the dataset is open-sourced, there are tasks and areas the data should not be used for. General speaking, according to Datasheet for Dataset, the use of AI in the areas of criminal justice, hiring, critical infrastructure, or finance is still doubtful. What’s more, the usages that could disclosure the personality or identity of individuals should also be limited whether or not there would be a potential harm to the person.
+
 ## Feature Works
 
-1. Fix the bug of `'classification'` model. As mentioned before, the classification brain is not working and currently I don't know if it's a bug from ml5 or my own code.
+1. Fix the bug of `'classification'` model. As mentioned before, the classification brain is not working and currently I don't know if it's a bug from ml5 or my own code. **(Fixed)**
 
 2. A better output visualization, and interface design.
