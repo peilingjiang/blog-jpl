@@ -165,7 +165,7 @@ A high school student is cloning DNA at home. A former NASA scientist is live st
 
 CRISPR genome editing allows scientists to quickly create cell and animal models, which researchers can use to accelerate research into diseases such as cancer and mental illness. In addition, CRISPR is now being developed as a rapid diagnostic. To help encourage this type of research worldwide, Feng Zhang and his team have trained thousands of researchers in the use of CRISPR genome editing technology through direct education and by sharing more than 40,000 CRISPR components with academic laboratories around the world.
 
-### Reference
+### References
 1. [CRISPR - Wikipedia](https://en.wikipedia.org/wiki/CRISPR)
 2. [Meet one of the world's most groundbreaking scientists.](https://www.statnews.com/2015/11/06/hollywood-inspired-scientist-rewrite-code-life/)
 3. [ZHANG LAB](https://zlab.bio/)

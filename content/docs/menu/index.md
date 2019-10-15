@@ -6,6 +6,7 @@ headless: true
   - [Readings]({{< relref "posts/biotechnology/readings.md" >}})
 - F19 **Collective Play**
 - F19 **Machine Learning for the Arts**
+  - [knowSound()]({{< relref "posts/machine-learning-for-the-arts/knowsound.md" >}})
   - [Dancing Glow]({{< relref "posts/machine-learning-for-the-arts/dancing-glow.md" >}})
   - [Housing Price]({{< relref "posts/machine-learning-for-the-arts/housing-price.md" >}})
   - [Violinist]({{< relref "posts/machine-learning-for-the-arts/violinist.md" >}})
