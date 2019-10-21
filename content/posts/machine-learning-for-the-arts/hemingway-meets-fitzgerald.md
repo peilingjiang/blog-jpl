@@ -38,7 +38,7 @@ Finally, with the line:
 th train.lua -input_h5 data/h-m-f.h5 -input_json data/h-m-f.json
 ```
 
-The training started. With the default setting, there were 50 Epochs and the whole training took around 1 hour (with no GPU acceleration). Disappointingly, the loss couldn't go lower than around `1.4`. And the outcome of the model is also unreadable (which was also because the `temperature` wqs set to `1` which means noisy and creative output):
+The training started. With the default setting, there were 50 Epochs and the whole training took around 1 hour (with no GPU acceleration). Disappointingly, the loss couldn't go lower than around `1.4`. And the outcome of the model is also unreadable (which was also because the `temperature` was set to `1` which means noisy and creative output):
 
 ```
 _L! MrGDA. Nossiginging to drip," I said to him, out of cigorally to go and thing was an afternoonle of Myrt me after him,
@@ -75,7 +75,7 @@ Finally, I found the models<sup>5</sup> written in Python using Tensorflow by Cr
 73849/73850 (epoch 49), train_loss = 1.274, time/batch = 0.032
 ```
 
-Although the loss is still above one, I can finally get the p5 sketch working. The interface has three major sections: Hemingway wrote, Fitzgerald wrote, and *They* wrote. The first two sections are based on my previous work of `Trie` model for an [assignment](https://py.mit.edu/spring19/labs/lab5) last semester about autocomplete. Actually the model introduced in the lab was the first thing came into my mind when I learned about RNN. Unfortunately, the code was written in Python and by the time I resolved all ml5 and model training problems, I have no time to look into the way to call it from JavaScript.
+Although the loss is still above one, I can finally get the p5 sketch working. The interface has three major sections: Hemingway wrote, Fitzgerald wrote, and *They* wrote. The first two sections are based on my previous work of `Trie` model for an [assignment](https://py.mit.edu/spring19/labs/lab5) last semester about autocomplete. Actually, the model introduced in this lab assignment was the first thing came into my mind when I learned about RNN. Unfortunately, the code was written in Python and by the time I resolved all ml5 and model training problems, I have no time to look into the way to call it from JavaScript.
 
 {{< hint warning >}}
 In-progress.
