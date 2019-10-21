@@ -82,7 +82,8 @@ In-progress.
 {{< /hint>}}
 
 > The code of the project is now on [GitHub](https://github.com/peilingjiang/ima-courses/tree/master/f19-ml-art/hemingway-meets-fitzgerald).<br>
-> I couldn't upload the sketch to p5 web editor since it refuses accepting some files in the model folder.
+> I couldn't upload the sketch to p5 web editor since it refuses accepting some files in the model folder.<br>
+> UPDATE: The project is now deployed with Netlify with this [LINK](https://h-meets-f.netlify.com).
 
 ## Future Works
 
