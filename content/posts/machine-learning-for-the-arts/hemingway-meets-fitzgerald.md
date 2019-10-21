@@ -75,6 +75,8 @@ Finally, I found the models<sup>5</sup> written in Python using Tensorflow by Cr
 73849/73850 (epoch 49), train_loss = 1.274, time/batch = 0.032
 ```
 
+<img src="/machine-learning-arts/h-m-f/screenshot.png" alt="Screenshot of the Project" width="100%">
+
 Although the loss is still above one, I can finally get the p5 sketch working. The interface has three major sections: **Hemingway wrote**, **Fitzgerald wrote**, and **They might write**, starting with the assigned word. The first two sections are based on my previous work of `Trie` model for an [assignment](https://py.mit.edu/spring19/labs/lab5) last semester about autocomplete. Actually, the model introduced in this lab assignment was the first thing came into my mind when I learned about RNN. Unfortunately, the code was written in Python and by the time I resolved all ml5 and model training problems, I have no time to look into the way to call it from JavaScript.
 
 {{< hint warning >}}
