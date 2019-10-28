@@ -6,6 +6,7 @@ headless: true
   - [Readings]({{< relref "posts/biotechnology/readings.md" >}})
 - F19 **Collective Play**
 - F19 **Machine Learning for the Arts**
+  - [Two Tales of One City]({{< relref "posts/machine-learning-for-the-arts/two-tales-of-one-city.md" >}})
   - [Hemingway Meets Fitzgerald]({{< relref "posts/machine-learning-for-the-arts/hemingway-meets-fitzgerald.md" >}})
   - [knowSound( )]({{< relref "posts/machine-learning-for-the-arts/knowsound.md" >}})
   - [Dancing Glow]({{< relref "posts/machine-learning-for-the-arts/dancing-glow.md" >}})

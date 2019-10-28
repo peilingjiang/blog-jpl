@@ -8,7 +8,9 @@ type: posts
 bookToc: true
 ---
 
-> IN PROGRESS
+{{< hint warning >}}
+IN PROGRESS
+{{< /hint>}}
 
 I'm planning to train a sound classification model for ml5 among a group of CV models. I've found a relatively small (around 1000-2000 pieces of sound effects files) yet well labeled dataset of sound effects: [Adobe Audition Sound Effects](https://offers.adobe.com/en/na/audition/offers/audition_dlc/AdobeAuditionDLCSFX.html). The dataset, or the sound effects library, is high quality while open-sourced and royalty-free. All the files were well named thus perfectly labeled for the training, here're several examples:
 
