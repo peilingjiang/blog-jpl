@@ -40,23 +40,25 @@ Finally-ly, I found Microsoft Azure News API. And wrote four files with it ([Cod
 
 I need to train 4 models in total: 2 for title writing, and 2 for description writing.
 
-The training of the models were rather painless and fast. The loss of all four models went down to nearly 0 after several thousands of batches. However, there's some problems of traning-charRNN: when you continuously train different models and don't delete or move out models generated from the previous training, the model saved will only always represent the result of the first training, even they are named differently by the name of input file. That's why when I trained one file after another, all I got was the same result (either both Chinese or English):
+The training of the models were rather painless and fast. The loss of all four models went down to nearly 0 after several thousands of batches. However, there's some problems of training-charRNN: when you continuously train different models and don't delete or move out models generated from the previous training, the model saved will only always represent the result of the first training, even they are named differently by the name of input file. That's why when I trained one file after another, all I got was the same result (either both Chinese or English):
 
 <img src="/machine-learning-arts/two-tales-of-one-city/process_1.png" alt="Screenshot of the Project in Progress" width="100%">
 
-You can see both descriptions are in English and both titles are in Chinese, it's simply because I trained title models on my own laptop - started with `zh` file, and trained description models on NYU HPC - started with `en` file.
+You can see both descriptions are in English and both titles are in Chinese, it's simply because I trained title models on my own laptop - started with `zh` file, and trained description models on NYU HPC - started with `en` file. Is it a bug of training-charRNN?
 
 I'll then retrain the models - taking hours.
 
 ## Deploy
 
-> To be updated in 1 hour.
+The project is now on [GitHub](https://github.com/peilingjiang/ima-courses/tree/master/f19-ml-art/two-tales-of-one-city) and a live demo is hosted through [Netlify](http://two-tales.netlify.com).
 
 ## Future Works
 
 1. Now the two models show how binary narrative could affect people's point of view of one fact. More interactively, what if the program could rephrase one same piece of words input by the user - to two different narratives, based on two models. This could disclose how facts could be reproduced into stories, that aren't necessarily fake, but serve the speakers' interests. This might beyond the capability of LSTM models but I'm curious if other machine learning models can make it happen.
 
 2. To make the project more understandable for people only understand English or Chinese, I'll try to use Google Translate API to translate the text into one selected language.
+
+3. Refresh button on each window.
 
 ## References
 
