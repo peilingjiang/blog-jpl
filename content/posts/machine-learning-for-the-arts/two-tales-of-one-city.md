@@ -14,7 +14,7 @@ It was the best of times, it was the worst of times, it was the age of wisdom, i
 
 The conflict of two different systems has never been as prominent and breathtaking as the ongoing Hong Kong incident. Outside of the city once regarded as one of the most important economic centers in the world, however, two extremely distinct tales covering the story can be found on the borderless Internet. Press from the western world states it as a prodemocracy protest against communist China, fight for freedom, and the enforcement Hong Kong police is applying to peaceful protesters is illegal and improper. Press from China states it as a riot backed up by western countries, and police is respectful for protecting Hong Kong people from the violent thug.
 
-I'm curious how meta narrative over the press can form the reports into one stream of information. And in this project, I'll train different models based on different sets of news from "western world" and China, and if any, see how contradictory they could be.
+I'm curious how meta narrative over the press can form and constrain the reports into one stream of information. And in this project, I'll train different models based on different sets of news from "western world" and China, and if any, see how contradictory and bias both of them could be - when learning just from one information source.
 
 ## Data Collecting
 
@@ -42,15 +42,22 @@ I need to train 4 models in total: 2 for title writing, and 2 for description wr
 
 The training of the models were rather painless and fast. The loss of all four models went down to nearly 0 after several thousands of batches. However, there's some problems of training-charRNN: when you continuously train different models and don't delete or move out models generated from the previous training, the model saved will only always represent the result of the first training, even they are named differently by the name of input file. That's why when I trained one file after another, all I got was the same result (either both Chinese or English):
 
-<img src="/machine-learning-arts/two-tales-of-one-city/process_1.png" alt="Screenshot of the Project in Progress" width="100%">
+<img src="/machine-learning-arts/two-tales-of-one-city/process_1.png" alt="Screenshot of the Project in Progress" width="100%" style="opacity:0.75;filter:alpha(opacity=75);">
+<caption>Screenshot of the Project in Progress</caption>
 
-You can see both descriptions are in English and both titles are in Chinese, it's simply because I trained title models on my own laptop - started with `zh` file, and trained description models on NYU HPC - started with `en` file. Is it a bug of training-charRNN?
+You can see both descriptions are in English and both titles are in Chinese, it's simply because I trained title models on my own laptop - started with `zh` file, and trained description models on NYU HPC - started with `en` file. Is it a bug of training-charRNN ([#18](https://github.com/ml5js/training-charRNN/issues/18))?
 
-I'll then retrain the models - taking hours.
+I'll then have to retrain the models - which takes hours.
 
 ## Deploy
 
 The project is now on [GitHub](https://github.com/peilingjiang/ima-courses/tree/master/f19-ml-art/two-tales-of-one-city) and a live demo is hosted through [Netlify](http://two-tales.netlify.com).
+
+<img src="/machine-learning-arts/two-tales-of-one-city/final_screen_1.png" alt="Final 1" width="100%">
+
+<img src="/machine-learning-arts/two-tales-of-one-city/final_screen_2.png" alt="Final 2" width="100%">
+
+The *windows* can be dragged around, like real *windows*, making it more like real web browser interface. Though I didn't have time make the UI details perfect. (It's also because of the style of the project I chose to have.) Every time you click on either of the windows, the "desktop" background image will change (based on image URLs gained through NewsAPI).
 
 ## Future Works
 
