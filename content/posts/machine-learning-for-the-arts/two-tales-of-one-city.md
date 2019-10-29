@@ -45,13 +45,13 @@ The training of the models were rather painless and fast. The loss of all four m
 <img src="/machine-learning-arts/two-tales-of-one-city/process_1.png" alt="Screenshot of the Project in Progress" width="100%" style="opacity:0.75;filter:alpha(opacity=75);">
 <caption>Screenshot of the Project in Progress</caption>
 
-You can see both descriptions are in English and both titles are in Chinese, it's simply because I trained title models on my own laptop - started with `zh` file, and trained description models on NYU HPC - started with `en` file. Is it a bug of training-charRNN ([#18](https://github.com/ml5js/training-charRNN/issues/18))?
+You can see both descriptions are in English and both titles are in Chinese, it's simply because I trained both `title` writing models on my own laptop - started with `zh` file, and trained both `description` writing models on NYU HPC - started with `en` file. Is it a bug of training-charRNN ([#18](https://github.com/ml5js/training-charRNN/issues/18))?
 
 I'll then have to retrain the models - which takes hours.
 
 ## Deploy
 
-The project is now on [GitHub](https://github.com/peilingjiang/ima-courses/tree/master/f19-ml-art/two-tales-of-one-city) and a live demo is hosted through [Netlify](http://two-tales.netlify.com).
+The project is now on [GitHub](https://github.com/peilingjiang/ima-courses/tree/master/f19-ml-art/two-tales-of-one-city) and a live demo is hosted through [Netlify](https://two-tales.netlify.com).
 
 <img src="/machine-learning-arts/two-tales-of-one-city/final_screen_1.png" alt="Final 1" width="100%">
 
