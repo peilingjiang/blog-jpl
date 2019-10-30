@@ -65,7 +65,9 @@ The *windows* can be dragged around, like real *windows*, making it more like re
 
 2. To make the project more understandable for people only understand English or Chinese, I'll try to use Google Translate API to translate the text into one selected language.
 
-3. Refresh button on each window.
+3. ~~Refresh button on each window.~~
+
+4. Think about how CharRNN works with languages other than English. How does it perform with Chinese training text?
 
 ## References
 
