@@ -29,3 +29,6 @@ For every category, the most files were named by "Category" + "Object" + "event"
 
 ## References
 1. [Sound Classification using Deep Learning](https://medium.com/@mikesmales/sound-classification-using-deep-learning-8bc2aa1990b7)
+2. [Using Deep Learning for Sound Classification: an In-depth Analysis](https://analyticsindiamag.com/using-deep-learning-for-sound-classification-an-in-depth-analysis/)
+3. [Enhanced Environmental Sound Classification with a CNN](https://medium.com/ai%C2%B3-theory-practice-business/enhanced-environmental-sound-classification-with-a-cnn-1ca388748bc9)
+4. [A Quick Introduction to the “Pandas” Python Library](https://towardsdatascience.com/a-quick-introduction-to-the-pandas-python-library-f1b678f34673)
