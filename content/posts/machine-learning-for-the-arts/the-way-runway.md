@@ -1,7 +1,7 @@
 ---
 author: "Peiling Jiang"
 date: "2019-11-03"
-title: The Way 🡆 Runway
+title: The Way @ Runway
 tags: ["IMA", "Fall19"]
 categories: ["Project"]
 type: posts
