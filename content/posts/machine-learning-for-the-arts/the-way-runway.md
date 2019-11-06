@@ -16,6 +16,8 @@ I spent most of my time this weekend working on [knowSound](https://blog.jpl.des
 
 As a platform developed for artists and designers, Runway is well designed to be user-friendly with a beautiful interface. It's still true nowadays that technology sounds some kind of *restricted area* to the majority of creatives, and the idea of "making technology accessible to artists (or everyone)", just like the collapsible paint tube empowering painters with more and easier to obtain colors, is definitely of great demand.
 
+Compared to other softwares we've used through the whole semester, Runway is definitely a winner. Because of its friendly GUI alone, it's already way easier to use than models outside of it that we need to configure and run ourselves with CLI; and better than ml5.js since you don't need to code at all and look up the documentations. And because of it being customizable, that users can add new models as they like or even train new models in the future, it has much more application scenarios than Teachable Machine. 
+
 It's not hard to find that the software is still in its fast growing phase and 3 new versions had come out during the past two weeks when we started getting our hands on it. While I do have some suggestions regarding to the design choices made to its interface:
 
 - The Welcome screen, where users are asked to choose from starting with current workspaces and models, seems unnecessary since the switch tab for these two pages are already at the highest level in the main software window. Adobe Creative Suite treats the problem with another solution: the majority of starting page are thumbnails of rent works (would be workspaces in this case), while on the side users can also choose to start with new canvas or templates.
