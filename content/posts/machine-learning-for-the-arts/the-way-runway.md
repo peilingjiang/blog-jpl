@@ -12,6 +12,16 @@ bookToc: true
 I spent most of my time this weekend working on [knowSound](https://blog.jpl.design/posts/machine-learning-for-the-arts/knowsound/), which I thought I might be able to finish training and bring into Runway by yesterday, while now I seriously doubt if I can finish it by the end of the semester. (2019.11.04)
 {{< /hint >}}
 
+## Runway
+
+As a platform developed for artists and designers, Runway is well designed to be user-friendly with a beautiful interface. It's still true nowadays that technology sounds some kind of *restricted area* to the majority of creatives, and the idea of "making technology accessible to artists (or everyone)", just like the collapsible paint tube empowering painters with more and easier to obtain colors, is definitely of great demand.
+
+It's not hard to find that the software is still in its fast growing phase and 3 new versions had come out during the past two weeks when we started getting our hands on it. While I do have some suggestions regarding to the design choices made to its interface:
+
+- The Welcome screen, where users are asked to choose from starting with current workspaces and models, seems unnecessary since the switch tab for these two pages are already at the highest level in the main software window. Adobe Creative Suite treats the problem with another solution: the majority of starting page are thumbnails of rent works (would be workspaces in this case), while on the side users can also choose to start with new canvas or templates.
+
+- This is more like a concept question: How wrapped up should the software be eventually? I also want to take Adobe as an example. Photoshop and Illustrator are also developed for creatives, yet actually have a quite steep learning curve that people need to spend hundreds of hours to use them as a master. This might be the inevitable trade-off of any tool platform and is related to the targeted user groups - everyone or professionals.
+
 ## Way to Grasshopper
 
 Not many news about how machine learning helps industrial design or product design has caught people's eyes. It might because of the difficulty of connecting old-fashioned modeling tools to latest ML models, or it's just because of the cooling-down of the whole industry as a result of the raise of the demanding UI/UX design. Runway, however, can at least solve the first problem.
@@ -35,8 +45,8 @@ After loading data [(sample data)](https://github.com/peilingjiang/ima-courses/b
 From this post I'll divide **References** that are related to topic and concept from **Technical References**, which is a composite of *how to* learning materials I came across during the process of accomplishing the final outcome documented in the posts.
 
 1. [runwayml/RunwayML-for-Grasshopper](https://github.com/runwayml/RunwayML-for-Grasshopper) is waiting for its first PR!
-1. [davisking/dlib](https://github.com/davisking/dlib)
-2. [Machine Learning En Plein Air: Building accessible tools for artists](https://medium.com/runwayml/machine-learning-en-plein-air-building-accessible-tools-for-artists-87bfc7f99f6b)
+2. [davisking/dlib](https://github.com/davisking/dlib)
+3. [Machine Learning En Plein Air: Building accessible tools for artists](https://medium.com/runwayml/machine-learning-en-plein-air-building-accessible-tools-for-artists-87bfc7f99f6b)
 
 ## Technical References
 
