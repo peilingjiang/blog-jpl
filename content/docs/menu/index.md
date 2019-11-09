@@ -24,3 +24,5 @@ headless: true
   - [I, Avatar]({{< relref "posts/performative-avatars/i-avatar.md">}})
 - F19 **Terrarium Studio**
 - F19 **Typography Studio**
+  - [A Clockwork Orange]({{< relref "posts/typography/a-clockwork-orange.md">}})
+  - [Didot]({{< relref "posts/typography/didot.md">}})
