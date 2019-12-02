@@ -63,15 +63,19 @@ Our next plan would be set it up for days and even weeks to see if we can get lo
 
 ## Reflection
 
-For now, the setup of the fish tank and the Pi camera has two significant problems:
+For now, the setup has two significant problems:
 
 1. The reflection of the fish could disturb the fish location detection, and this issue cannot be solved by simply chopping the image for the top-view perspective’s influence.
 
 2. The heater in the fish tank would interfere with the detection as well and is not aesthetically desirable.
 
-Also, the installation itself is not a closed system for now: the generated text needs to be collected and fed to the C code for word detection by us, and the created files need to be printed manually. Therefore, the demonstration effect is not desirable for now, since all the audience can look at is just a fish tank with a Pi camera hanging over it.
+## Future Works
 
-In the future, besides solving the setup problems mentioned above, we wish to make this work a closed system that could tell the audience which letter is being generated, what is the current text, and what is the current detected words in real-time.
+The installation itself is not a closed system for now: the generated text needs to be collected and fed to the C code for word detection by us, and the created files need to be printed manually. Therefore, the demonstration effect is not desirable, since all the audience can look at is just a fish tank with a Pi camera hanging over it.
+
+In the future, besides solving the setup problems mentioned above, we wish to make this work a closed system that could tell the audience which letter is being generated, what is the current text, and what is the current detected words in real-time via a screen and an interface based on Pi.
+
+More importantly, we want to try mapping swimming poses into other languages. For example, recording a sequence of fish tail locations and mapping them to strokes of Chinese characters.
 
 ## References
 
