@@ -49,7 +49,7 @@ We divide the area into `n = 26x26` subdivisions, and randomly place alphabet le
 
 We insert a dictionary of 25,322 popular words into a *tire tree* data structure, and the following word detection process is based on that tree.
 
-We tested it for 6 hours during the thanksgiving holidays. And here's what we got:
+We tested it for 6 hours during the Thanksgiving holidays. And here's what we got:
 
 ```
 wsazxcvfrtgbnjkmlpoijhgfresdfgyhfutyihgfdrejsdhfjoasdhjbaskosbciyasbmwidtebbmsbchjsiuhakbcbashguycxhbshfckajjsbfhsgfjhsdnmwisoduhbdshjbhkabkjbdfshvsdfhjvshjfshjbdhfjbbhsjdvfgveshjfbhjsbdjhfvghsvhfjbsdhjbfhjdsbhjcbdshjvfghevsfhjbsdbhjbchdjsbvhjdfghvhsjebfhjdsbhjcdsvhjfvhjsevfdjsbhcjbsdhjbhjdsvfghsvhjfvhdjsbvhjdsvhgsdoiuencoapkwgduavqapdiewbjd
