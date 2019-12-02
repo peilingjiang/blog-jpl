@@ -6,7 +6,7 @@ headless: true
   - [Readings]({{< relref "posts/biotechnology/readings.md" >}})
 - F19 **Collective Play**
 - F19 **Machine Learning for the Arts**
-  - [**Finger Dance**]({{< relref "posts/machine-learning-for-the-arts/finger-dance.md" >}})
+  - [**Handy**]({{< relref "posts/machine-learning-for-the-arts/handy.md" >}})
   - [The Way @ Runway]({{< relref "posts/machine-learning-for-the-arts/the-way-runway.md" >}})
   - [Two Tales of One City]({{< relref "posts/machine-learning-for-the-arts/two-tales-of-one-city.md" >}})
   - [Hemingway Meets Fitzgerald]({{< relref "posts/machine-learning-for-the-arts/hemingway-meets-fitzgerald.md" >}})
@@ -18,12 +18,13 @@ headless: true
   - [ImageNet]({{< relref "posts/machine-learning-for-the-arts/imagenet.md" >}})
   - [A Glance of AI]({{< relref "posts/machine-learning-for-the-arts/a-glance-of-ai.md" >}})
 - F19 **Performative Avatar**
-  - [Fusion]({{< relref "posts/performative-avatars/fusion.md" >}})
+  - [**Fusion**]({{< relref "posts/performative-avatars/fusion.md" >}})
   - [Mirror]({{< relref "posts/performative-avatars/mirror.md" >}})
   - [Wrap]({{< relref "posts/performative-avatars/wrap.md" >}})
   - [itSeez3D]({{< relref "posts/performative-avatars/itseez3d.md" >}})
   - [I, Avatar]({{< relref "posts/performative-avatars/i-avatar.md">}})
 - F19 **Terrarium Studio**
+  - [**Infinite Goldfish**]({{< relref "posts/world-in-box/infinite-goldfish.md">}})
 - F19 **Typography Studio**
   - [A Clockwork Orange]({{< relref "posts/typography/a-clockwork-orange.md">}})
   - [Didot]({{< relref "posts/typography/didot.md">}})

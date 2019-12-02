@@ -9,7 +9,7 @@ bookToc: false
 
 Peiling is a media arts and design student studying in NYU, Tisch School of the Arts. With a background of product design, and undergraduate research assistant experience in MIT Media Lab, he's practices include industrial design and computational design, HCI, user research, and creative programming.
 
-- Search by tags: IMA / Fall19<br>
+- Search by tags: IMA / Fall19 / Final<br>
 - Search by categories: Reading / Project
 
 🙆‍♂️ More information will be updated soon.

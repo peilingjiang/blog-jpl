@@ -2,7 +2,7 @@
 author: "Peiling Jiang"
 date: "2019-09-07"
 title: Fusion
-tags: ["IMA", "Fall19"]
+tags: ["IMA", "Fall19", "Final"]
 categories: ["Project"]
 type: posts
 bookToc: true
