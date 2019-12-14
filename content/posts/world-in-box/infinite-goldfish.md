@@ -41,7 +41,7 @@ Raspberry Pi and Pi camera are used for taking and uploading images, together wi
 We thought about using DenseCap for the fish location detection, for it can recognize the fish and return the coordination of its bounding box. However, after doing some further research, we found that it is completely unnecessary and overheavy. In our final implementation, the location of the fish is calculated using a blob detection algorithm, which would find the red pixel group - the color of Betta - in the image. The position is then mapped to a English letters based on its coordination.
 
 ![Division Explanation](/world-in-box/division.png)
-Check photos | [1](/world-in-box/division-01.png) | [2](/world-in-box/division-02.png) | [3](/world-in-box/division-03.png)
+Original Size | [1](/world-in-box/division-01.png) | [2](/world-in-box/division-02.png) | [3](/world-in-box/division-03.png)
 
 We divide the area into `n = 26x26` subdivisions, and randomly place alphabet letters in them. Each letter will occupy 26 blocks. The method is implemented to minimize the influences of original positions the letters occur in alphabet, and Betta's preferences of locations in the tank.
 
