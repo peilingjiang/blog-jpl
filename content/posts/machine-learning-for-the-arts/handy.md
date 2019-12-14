@@ -108,7 +108,7 @@ The third interaction that intends to create a "number board" inside the palm ha
 4. [AlterEgo - MIT Media Lab](https://www.media.mit.edu/projects/alterego/overview/), [Paper](https://dl.acm.org/citation.cfm?id=3172977)
 5. [OpenBCI](https://openbci.com)
 6. [Techniques of EMG signal analysis: detection, processing, classification and applications](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1455479/)
-7. [EMG Signal Classification for Human Computer Interaction A Review](https://www.researchgate.net/publication/215677997_EMG_Signal_Classification_for_Human_Computer_Interaction_A_Review) (Table:1 Summary of major methods used for EMG classification in the field of HCI)
+7. [EMG Signal Classification for Human Computer Interaction A Review](https://www.researchgate.net/publication/215677997_EMG_Signal_Classification_for_Human_Computer_Interaction_A_Review) (Table 1: Summary of major methods used for EMG classification in the field of HCI)
 8. [A new means of HCI: EMG-MOUSE](https://ieeexplore.ieee.org/document/1398280)
 
 ## Technical References
