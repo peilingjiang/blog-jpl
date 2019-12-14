@@ -57,6 +57,8 @@ Channel one and two will mainly be used to *scroll*, and three and four will mai
 
 ### Signal Processing
 
+The models were trained with `ml5.neuralNetwork`.
+
 The sampling rate of the OpenBCI Cyton board is around 200Hz (which is much higher than the default 60Hz p5.js `draw()`) so I'm getting a lot of data each second for every channel.
 
 I firstly tried to send the data directly to ml5.neuralNetwork, however, the training performed very poorly (see the left figure below) no matter how I adjusted training options like learning rate and epochs. Then I plotted out the signals I received and understood the reason: even though the signal plot is relatively easy for us to identify the "active" parts from the "idle" ones, the data points are really close to each other, jumping back and forth, making it hard for machine learning models to distinguish (see the figure below the loss curves.)
@@ -105,8 +107,13 @@ The third interaction that intends to create a "number board" inside the palm ha
 3. [Arm - Wiki](https://en.wikipedia.org/wiki/Arm), [Upper Limb - Wiki](https://en.wikipedia.org/wiki/Upper_limb)
 4. [AlterEgo - MIT Media Lab](https://www.media.mit.edu/projects/alterego/overview/), [Paper](https://dl.acm.org/citation.cfm?id=3172977)
 5. [OpenBCI](https://openbci.com)
+6. [Techniques of EMG signal analysis: detection, processing, classification and applications](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1455479/)
+7. [EMG Signal Classification for Human Computer Interaction A Review](https://www.researchgate.net/publication/215677997_EMG_Signal_Classification_for_Human_Computer_Interaction_A_Review) (Table:1 Summary of major methods used for EMG classification in the field of HCI)
+8. [A new means of HCI: EMG-MOUSE](https://ieeexplore.ieee.org/document/1398280)
 
 ## Technical References
 
 1. [Setting up for EMG - OpenBCI Doc](https://docs.openbci.com/docs/01GettingStarted/02-Biosensing-Setups/EMGSetup)
 2. [Python signal filter test by J77M](https://github.com/J77M/openbciGui_filter_test/blob/master/fft_data.ipynb)
+3. [OpenBCI/OpenBCI_NodeJS_Cyton - GitHub](https://github.com/OpenBCI/OpenBCI_NodeJS_Cyton)
+4. [OpenBCI/OpenBCI_NodeJS - GitHub](https://github.com/OpenBCI/OpenBCI_NodeJS)
