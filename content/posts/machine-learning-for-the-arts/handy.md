@@ -8,11 +8,7 @@ type: posts
 bookToc: true
 ---
 
-A wearable interface interpreting hand movements to computer interactions.
-
-{{< hint warning >}}
-Photos and videos to be updated.
-{{< /hint>}}
+Handy is a wearable interface interpreting tangible interaction to intangible experiences.
 
 ## Proposal
 
@@ -91,7 +87,7 @@ For the first stage of development, I tried to accomplish the following three in
 
 ![Interactions](/machine-learning-arts/handy/interface.png)
 
-The third interaction that intends to create a "number board" inside the palm hasn't been achieved, it's unstable even when recognizing "1" and "9" - which are the furthest two numbers on a board - alone. I'll keep working on it and see if the result will improve if after applying the filter or with other methods.
+The third interaction that intends to create a "number board" inside the palm hasn't been achieved, it's unstable even when recognizing "1" and "9" - which are the furthest two numbers on a board - alone. I'll keep working on it and see if the result will improve if after applying the filter or with other methods. I also modularized the system so that each model only needs to handle very simple and specific tasks, and it's easy to extend the applications by training new models and adding them into the pipeline.
 
 {{< figure src="/machine-learning-arts/handy/model-structure.png" alt="Model Structure" width="100%" >}}
 
