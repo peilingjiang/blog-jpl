@@ -2,8 +2,6 @@
 author: "Peiling Jiang"
 date: "2019-09-23"
 title: Wrap
-tags: ["IMA", "Fall19"]
-categories: ["Reading"]
 type: posts
 bookToc: true
 ---

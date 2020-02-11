@@ -2,8 +2,6 @@
 author: "Peiling Jiang"
 date: "2019-09-25"
 title: Housing Price
-tags: ["IMA", "Fall19"]
-categories: ["Reading", "Project"]
 type: posts
 bookToc: true
 ---

@@ -2,8 +2,6 @@
 author: "Peiling Jiang"
 date: "2019-11-01"
 title: Didot
-tags: ["IMA", "Fall19"]
-categories: ["Project"]
 type: docs
 bookToc: true
 ---

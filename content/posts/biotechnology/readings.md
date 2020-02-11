@@ -2,8 +2,6 @@
 author: "Peiling Jiang"
 date: "2019-09-18"
 title: Readings
-tags: ["IMA", "Fall19"]
-categories: ["Reading"]
 type: docs
 bookToc: true
 ---

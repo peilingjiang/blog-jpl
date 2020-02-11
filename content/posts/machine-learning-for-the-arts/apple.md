@@ -2,8 +2,6 @@
 author: "Peiling Jiang"
 date: "2019-09-15"
 title: aPPle!
-tags: ["IMA", "Fall19"]
-categories: ["Project"]
 type: posts
 bookToc: true
 ---

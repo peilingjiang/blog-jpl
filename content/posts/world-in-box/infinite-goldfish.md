@@ -2,8 +2,6 @@
 author: "Peiling Jiang"
 date: "2019-12-01"
 title: Infinite Goldfish
-tags: ["IMA", "Fall19", "Final"]
-categories: ["Project"]
 type: posts
 bookToc: true
 ---

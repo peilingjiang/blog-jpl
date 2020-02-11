@@ -2,8 +2,6 @@
 author: "Peiling Jiang"
 date: "2019-10-27"
 title: Two Tales of One City
-tags: ["IMA", "Fall19"]
-categories: ["Project"]
 type: posts
 bookToc: true
 ---

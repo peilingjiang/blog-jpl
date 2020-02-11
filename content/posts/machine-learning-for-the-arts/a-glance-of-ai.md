@@ -2,8 +2,6 @@
 author: "Peiling Jiang"
 date: "2019-09-09"
 title: A Glance of AI
-tags: ["IMA", "Fall19"]
-categories: ["Reading"]
 type: posts
 bookToc: true
 ---

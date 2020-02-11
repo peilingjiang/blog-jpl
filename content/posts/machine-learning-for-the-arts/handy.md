@@ -2,8 +2,6 @@
 author: "Peiling Jiang"
 date: "2019-11-18"
 title: Handy
-tags: ["IMA", "Fall19", "Final"]
-categories: ["Project"]
 type: posts
 bookToc: true
 ---

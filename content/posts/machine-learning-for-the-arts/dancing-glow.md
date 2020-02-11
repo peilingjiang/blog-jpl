@@ -2,8 +2,6 @@
 author: "Peiling Jiang"
 date: "2019-10-07"
 title: Dancing Glow
-tags: ["IMA", "Fall19"]
-categories: ["Project"]
 type: posts
 bookToc: true
 ---
