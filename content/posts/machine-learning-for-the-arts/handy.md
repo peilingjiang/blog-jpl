@@ -38,7 +38,7 @@ More TODOs and future works related to HCI to be updated.
 
 One Cyton board can read and send up to 4 channels of EMG data, which means 4 different muscle groups. After learning about hand and arm muscle groups, I decided to use *two* channels for early stage development and simple gestures, and all 4 channels for final implementation and more complex and detailed movement detection. The electrodes will be attached to the upper limb and hand as follows:
 
-{{< expand >}}
+{{< expand Implementations >}}
 
 ![2 Channel Implementation](/machine-learning-arts/handy/upper-limb-2.png)
 2 Channels *(Base photos from Wikipedia)*

@@ -2,6 +2,8 @@
 headless: true
 ---
 
+- S20 **Critical Communication**
+  - [RFID]({{< relref "posts/critical-communications/rfid.md" >}})
 - F19 **Biotechnology**
   - [Readings]({{< relref "posts/biotechnology/readings.md" >}})
 - F19 **Collective Play**
