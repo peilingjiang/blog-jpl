@@ -1,4 +1,5 @@
 ---
+bookCollapseSection: true
 author: "Peiling Jiang"
 date: "2019-12-01"
 title: Infinite Goldfish

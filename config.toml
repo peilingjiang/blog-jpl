@@ -55,7 +55,7 @@ pygmentsCodeFences = true
 
   # (Optional, default true) Enables search function with lunr.js,
   # Index is built on fly, therefore it might slowdown your website.
-  BookSearch = true
+  BookSearch = false
 
   # (Optional, default none) Search config for flexsearch index.
   # Read documentation at https://github.com/nextapps-de/flexsearch#usage. By default 'balance' preset is used.

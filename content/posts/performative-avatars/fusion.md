@@ -1,4 +1,5 @@
 ---
+bookCollapseSection: true
 author: "Peiling Jiang"
 date: "2019-09-07"
 title: Fusion

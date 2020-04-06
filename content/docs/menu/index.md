@@ -4,9 +4,6 @@ headless: true
 
 - S20 **Critical Communication**
   - [RFID]({{< relref "posts/critical-communications/rfid.md" >}})
-- F19 **Biotechnology**
-  - [Readings]({{< relref "posts/biotechnology/readings.md" >}})
-- F19 **Collective Play**
 - F19 **Machine Learning for the Arts**
   - [**Handy**]({{< relref "posts/machine-learning-for-the-arts/handy.md" >}})
   - [The Way @ Runway]({{< relref "posts/machine-learning-for-the-arts/the-way-runway.md" >}})
@@ -30,3 +27,6 @@ headless: true
 - F19 **Typography Studio**
   - [A Clockwork Orange]({{< relref "posts/typography/a-clockwork-orange.md">}})
   - [Didot]({{< relref "posts/typography/didot.md">}})
+- F19 **Biotechnology**
+  - [Readings]({{< relref "posts/biotechnology/readings.md" >}})
+- F19 **Collective Play**
