@@ -3,6 +3,7 @@ headless: true
 ---
 
 - S20 **Critical Communications**
+  - [Radio Frequencies]({{< relref "posts/critical-communications/radio-frequencies.md" >}})
   - [RFID]({{< relref "posts/critical-communications/rfid.md" >}})
 - F19 **Machine Learning for the Arts**
   - [**Handy**]({{< relref "posts/machine-learning-for-the-arts/handy.md" >}})
