@@ -2,6 +2,8 @@
 headless: true
 ---
 
+- S20 **Pixel by Pixel**
+  - [**Cyberflowers**]({{< relref "posts/pixel-by-pixel/cyberflowers.md" >}})
 - S20 **Critical Communications**
   - [Radio Frequencies]({{< relref "posts/critical-communications/radio-frequencies.md" >}})
   - [RFID]({{< relref "posts/critical-communications/rfid.md" >}})
