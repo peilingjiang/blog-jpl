@@ -78,6 +78,8 @@ You can either click on the character and sow a new cyberflower rooted on it, or
 
 ![Demo](/pixel-by-pixel/cyberflowers/demo_1.gif)
 
+The current version (0.3.5) of the extension has been submitted to Chrome Extension Store for review and would be published if no issues found.
+
 ## Future Works
 
 1. Apply the concept to other languages - Katakana, Hiragana, Chinese characters, and more.
@@ -88,6 +90,7 @@ You can either click on the character and sow a new cyberflower rooted on it, or
 
 1. Prior works - Peiling Jiang's [accordion book design for A Clockwork Orange](https://blog.jpl.design/posts/typography/a-clockwork-orange/)
 2. [Typography - Wikipedia](https://en.wikipedia.org/wiki/Typography)
+3. [Nombre Redondo](https://www.marinavictoria.space/nombre-redondo) by Marina Victoria (after presentation)
 
 ## Technical References
 
@@ -99,7 +102,7 @@ You can either click on the character and sow a new cyberflower rooted on it, or
 ## Links
 
 1. [GitHub Repository](https://github.com/peilingjiang/cyberflowers) for the extension
-2. [GitHub Repository](https://github.com/peilingjiang/ima-courses/tree/master/s20-pixel/final_cyberflowers) for the example p5.js sketches.
+2. [GitHub Repository](https://github.com/peilingjiang/ima-courses/tree/master/s20-pixel/final_cyberflowers) for the example p5.js sketches
 3. [Embedded p5.js sketch](https://editor.p5js.org/peilingjiang/present/b6SH4VwL1) (Matrix)
 4. [Embedded p5.js sketch](https://editor.p5js.org/peilingjiang/present/ixM4XnkKR) (Formation)
 5. [Embedded p5.js sketch](https://editor.p5js.org/peilingjiang/present/hFP05DMUk) (Composition)
