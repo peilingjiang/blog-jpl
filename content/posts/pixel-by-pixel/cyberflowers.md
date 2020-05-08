@@ -90,7 +90,10 @@ The current version (0.3.5) of the extension has been submitted to Chrome Extens
 
 1. Prior works - Peiling Jiang's [accordion book design for A Clockwork Orange](https://blog.jpl.design/posts/typography/a-clockwork-orange/)
 2. [Typography - Wikipedia](https://en.wikipedia.org/wiki/Typography)
-3. [Nombre Redondo](https://www.marinavictoria.space/nombre-redondo) by Marina Victoria (after presentation)
+
+From presentation feedbacks:
+
+3. [Nombre Redondo](https://www.marinavictoria.space/nombre-redondo) by Marina Victoria
 
 ## Technical References
 
