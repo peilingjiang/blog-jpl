@@ -6,7 +6,8 @@ type: posts
 bookToc: true
 ---
 
-{{< video src="/machine-learning-arts/dancing-glow/dancing-glow-working.mp4" width="100%" >}}
+<!-- {{< video src="/machine-learning-arts/dancing-glow/dancing-glow-working.mp4" width="100%" >}} -->
+*Please contact the blogger for the video demo of the project.*
 
 This week I tried real-time data collection and multiple, different types of inputs and output with the new Neural Network feature of ml5.js. **Dancing Glow**, as a result, is a visual project in which lines following the body will change to different colors according to body positions as trained. Here's the [**LINK**](https://editor.p5js.org/peilingjiang/sketches/hg8ecxUTS) to the p5 web editor.
 
