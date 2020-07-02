@@ -10,9 +10,11 @@ bookToc: true
 
 <br>
 
+Combining the beauty of digital typography and computational design, **Cyberflowers** explore a new way to appreciate literal materials in the cyberspace by embodying their content and sentiment in flowers, with characters from the text being stamen and petals. The project was developed with [p5.js](https://p5js.org/) and demonstrated by the interactive Chrome [extension](https://chrome.google.com/webstore/detail/cyberflowers/emijohgjnlcnakfgdnjkmicgbdpmhjaf) as a proof of concept.
+
 ## Art of Typography
 
-Typography is the art and technique of arranging type to make written language legible, readable, and appealing when displayed. Grew up and living in the digital era, we have built a common sense and intuitively perceive those shapes, composed of curvatures, lines, and solid surfaces, as meaningful pieces. This perception, emerging only in the recent hundreds of years, is so strong, just like our centrality of social cognition of faces, forces us to form meanings around even arbitrary graphics (like <a href="https://twitter.com/simplife_plus/status/1257805754121117696" target="_blank">this</a> (twitter) recent example during social distancing), however, can also be easily **destroyed** as far as I'm concerned. Different coloring, margin, sizes, or even a tiny change to the familiarized radian and stroke length, can easily make us lose the conformity of it being text and rather stimuli our imagination. *(For the following canvases, please click on the canvas to switch text.)*
+Typography is the art and technique of arranging type to make written language legible, readable, and appealing when displayed. Grew up and living in the digital era, we have built a common sense and intuitively perceive those shapes, composed of curvatures, lines, and solid surfaces, as meaningful pieces. This perception, emerging only in the recent hundreds of years, is so strong, just like our centrality of social cognition of faces, forces us to form meanings around even arbitrary graphics (like <a href="https://twitter.com/simplife_plus/status/1257805754121117696" target="_blank">this</a> (twitter) recent example during social distancing), however, can also be easily **sabotaged**. Different coloring, margin, sizes, or even a tiny change to the familiarized radian and stroke length, can easily make us lose the conformity of it being text and rather stimuli our imagination. *(For the following canvases, please click on the canvas to switch text.)*
 
 <br>
 <iframe style="width: 720px; height: 320px; overflow: hidden;" scrolling="no" frameborder="0" src="https://editor.p5js.org/peilingjiang/embed/ixM4XnkKR"></iframe>
@@ -110,3 +112,4 @@ From presentation feedbacks:
 4. [Embedded p5.js sketch](https://editor.p5js.org/peilingjiang/present/ixM4XnkKR) (Formation)
 5. [Embedded p5.js sketch](https://editor.p5js.org/peilingjiang/present/hFP05DMUk) (Composition)
 6. [Embedded p5.js sketch](https://editor.p5js.org/peilingjiang/present/-CYsUUWxC) (Groups)
+7. [Cyberflowers - Chrome Web Store](https://chrome.google.com/webstore/detail/cyberflowers/emijohgjnlcnakfgdnjkmicgbdpmhjaf) by JPL
