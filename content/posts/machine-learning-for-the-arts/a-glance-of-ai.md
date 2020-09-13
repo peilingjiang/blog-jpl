@@ -38,7 +38,7 @@ Finally, AI will learn how current languages are taught, as design textbooks and
 
 Page 23-28 (Everyday AI Activity)/36-41 (Embodying Social Algorithms).
 
-{{< expand Screenshots >}}
+{{< details title="Screenshots" open=false >}}
 
 <img src="/machine-learning-arts/a-glance-of-ai/peoples-guide-ai_Page_12.jpg" alt="Peoples Guide to AI Page 12" width="100%" >
 <img src="/machine-learning-arts/a-glance-of-ai/peoples-guide-ai_Page_13.jpg" alt="Peoples Guide to AI Page 13" width="100%" >
@@ -48,4 +48,4 @@ Page 23-28 (Everyday AI Activity)/36-41 (Embodying Social Algorithms).
 <img src="/machine-learning-arts/a-glance-of-ai/peoples-guide-ai_Page_20.jpg" alt="Peoples Guide to AI Page 20" width="100%" >
 <img src="/machine-learning-arts/a-glance-of-ai/peoples-guide-ai_Page_21.jpg" alt="Peoples Guide to AI Page 21" width="100%" >
 
-{{< /expand >}}
+{{< /details >}}
