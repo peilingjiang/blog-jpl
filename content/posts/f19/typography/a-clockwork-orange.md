@@ -4,7 +4,7 @@ author: "Peiling Jiang"
 date: "2019-11-08"
 title: A Clockwork Orange
 type: docs
-bookToc: true
+bookToc: false
 ---
 
 <img src="/typography/a-clockwork-orange/A-Clockwork-Orange_1.png" alt="Accordion Book Part 1" width="100%">

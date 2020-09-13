@@ -1,7 +1,7 @@
 ---
 author: "Peiling Jiang"
 date: "2020-09-13"
-title: Raw
+title: RAWGraphs
 type: posts
 bookToc: false
 ---
@@ -26,7 +26,7 @@ This plot tells **How many space missions each country has conducted and how muc
 
 ## Parallel Coordinates
 
-Unlike the former plots, this plot explains, or at least tries to illustrate, a concept instead of a knowledge, answering the question **How might a credit card fraud detecting system work?** Each dimension represents a value that machine learning system takes and considers when classifying an incoming transaction (e.g. total amount, time). Due to confidentiality issues, publisher of the dataset didn't disclose the actual original catagories of data. However, visual animals have already found the enough useful information.
+Unlike the former plots, this plot explains, or at least tries to illustrate, a concept instead of a knowledge, answering the question **How might a credit card fraud detecting system work?** Each dimension represents a value that machine learning system takes and considers when classifying an incoming transaction (e.g. total amount, time). Due to confidentiality issues, publisher of the dataset didn't disclose the actual original catagories of data. However, visual animals have already found the enough useful information. (The original dataset has 28 dimensions and I only randomly picked part of them due to space constrains.)
 
 ![Visualization 3](/info-design/raw/3.svg)
 

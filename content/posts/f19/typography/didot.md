@@ -6,11 +6,6 @@ type: docs
 bookToc: true
 ---
 
-<!-- <object data="https://localhost:8000/posts/typography/didot/didot.pdf" type="application/pdf" width="100%">
-    <embed src="https://localhost:8000/posts/typography/didot/didot.pdf">
-    </embed>
-</object> -->
-
 <img src="/typography/didot/didot.png" alt="Didot Poster" width="100%">
 
 More about the project will be updated soon.

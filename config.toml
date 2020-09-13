@@ -6,7 +6,7 @@ googleAnalytics = "UA-133943899-2"
 # themesDir = '../..'
 
 # Book configuration
-disablePathToLower = true
+disablePathToLower = false
 enableGitInfo = false
 
 # Code highlight
@@ -17,6 +17,16 @@ pygmentsCodeFences = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[[menu.before]]
+  name = "Portfolio 🚧"
+  url = "https://www.jpl.design"
+  weight = 1
+
+[[menu.before]]
+  name = "GitHub"
+  url = "https://github.com/peilingjiang"
+  weight = 2
 
 [params]
   # (Optional, default 6) Set how many table of contents levels to be showed on page.
@@ -30,11 +40,11 @@ pygmentsCodeFences = true
 
   # (Optional, default none) Set leaf bundle to render as side menu
   # When not specified file structure and weights will be used
-  BookMenuBundle = '/menu'
+  # BookMenuBundle = '/menu'
 
   # (Optional, default docs) Specify section of content to render as menu
   # You can also set value to '*' to render all sections to menu
-  BookSection = 'docs'
+  BookSection = 'posts'
 
   # (Optional) This value is duplicate of $link-color for making active link highlight in menu bundle mode
   BookMenuBundleActiveLinkColor = '\#00d1ff'
@@ -57,7 +67,18 @@ pygmentsCodeFences = true
   # Index is built on fly, therefore it might slowdown your website.
   BookSearch = false
 
-  # (Optional, default none) Search config for flexsearch index.
-  # Read documentation at https://github.com/nextapps-de/flexsearch#usage. By default 'balance' preset is used.
-  # This option allows to set specific configs for languages support. Must be valid JavaScript object.
-  BookSearchConfig = '{ cache: true }'
+  # (Optional, default true) Enables comments template on pages
+  # By default partals/docs/comments.html includes Disqus template
+  # See https://gohugo.io/content-management/comments/#configure-disqus
+  # Can be overwritten by same param in page frontmatter
+  BookComments = false
+
+  # /!\ This is an experimental feature, might be removed or changed at any time
+  # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
+  # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
+  # Theme will print warning if page referenced in markdown does not exists.
+  # BookPortableLinks = false
+
+  # /!\ This is an experimental feature, might be removed or changed at any time
+  # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
+  BookServiceWorker = true
