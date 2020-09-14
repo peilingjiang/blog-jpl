@@ -1,5 +1,5 @@
 ---
 bookFlatSection: true
-title: "F20"
+title: "Fall 20"
 weight: 40
 ---

@@ -18,12 +18,12 @@ pygmentsCodeFences = true
     [markup.goldmark.renderer]
       unsafe = true
 
-[[menu.before]]
+[[menu.after]]
   name = "Portfolio 🚧"
   url = "https://www.jpl.design"
   weight = 1
 
-[[menu.before]]
+[[menu.after]]
   name = "GitHub"
   url = "https://github.com/peilingjiang"
   weight = 2

@@ -1,5 +1,6 @@
 body {
-  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Frutiger, PingFangSC, PingFangTC, "Microsoft YaHei", Helvatica Neue, Sans-serif;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Frutiger,
+    PingFangSC, PingFangTC, "Microsoft YaHei", Helvatica Neue, Sans-serif;
 }
 
 .book-brand {
@@ -9,4 +10,24 @@ body {
 
 .book-menu {
   font-size: $font-size-12;
+}
+
+// bookToc
+#TableOfContents {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+// Home
+#homeCanvas {
+  display: flex;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  width: 100%;
+  height: 570px;
+}
+
+#homeCanvas .p5Canvas {
+  border: none;
+  box-shadow: none;
+  outline: none;
 }
