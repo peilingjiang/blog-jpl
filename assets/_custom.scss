@@ -31,3 +31,10 @@ body {
   box-shadow: none;
   outline: none;
 }
+
+@media screen and (max-width: $mobile-breakpoint) {
+  #homeCanvas {
+    display: none;
+    pointer-events: none;
+  }
+}
