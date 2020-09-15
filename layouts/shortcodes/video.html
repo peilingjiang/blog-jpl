@@ -1,5 +1,11 @@
-<video preload="auto" controls width="100%">
-  <source src="{{ .Get "src" }}" type="video/mp4">
-  <source src="{{ .Get "src" }}" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
+<div class="flex justify-center video-shortcut">
+  {{ if ( .Get "width" ) }}
+  <video preload="auto" controls width="{{ .Get "width" }}">
+  {{ else }}
+  <video preload="auto" controls width="100%">
+  {{ end }}
+    <source src="{{ .Get "src" }}" type="video/mp4">
+    <source src="{{ .Get "src" }}" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+</div>

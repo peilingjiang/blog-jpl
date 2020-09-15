@@ -1,5 +1,4 @@
 ---
-bookCollapseSection: true
 author: "Peiling Jiang"
 date: "2020-09-09"
 title: Starry Night

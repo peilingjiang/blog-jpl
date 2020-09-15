@@ -20,7 +20,7 @@ bookToc: false
   }
 
   function draw() {
-    background(255)
+    clear()
     scale(0.8)
     rotateX((height / 2 - mouseY) * 0.03)
     rotateY((mouseX - width / 2) * 0.01)
