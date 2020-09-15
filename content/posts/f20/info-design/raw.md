@@ -10,19 +10,15 @@ Learning and play with RAWGraphs, an open web tool to create custom vector-based
 
 ## Scatter Plot
 
-This visualization answers the question **How the housing prices correlate with the location in the city of Beijing?** I firstly used the dataset for a machine learning course [assignment](/posts/machine-learning-for-the-arts/housing-price) around a year ago. Besides the LAT and LNG value from the dataset, after downloading the `.svg` file from RAWGraphs website, I also added another layer - the map of Beijing - to the plot to make the visualization more meaningful and easier to understand.
+This visualization answers the question **How the housing prices correlate with the location in the city of Beijing?** I firstly used the dataset for a machine learning course [assignment](/posts/f19/machine-learning-for-the-arts/more/housing-price) around a year ago. Besides the LAT and LNG value from the dataset, after downloading the `.svg` file from RAWGraphs website, I also added another layer - the map of Beijing - to the plot to make the visualization more meaningful and easier to understand.
 
-<div class="flex justify-center">
-  <img src="/info-design/raw/1.jpg" alt="Visualization 1" width="70%" max-width="1000px" />
-</div>
+{{< photo src="/info-design/raw/1.webp" alt="Visualization 1" width="70%" >}}
 
 ## Beeswarm Plot
 
 This plot tells **How many space missions each country has conducted and how much did them cost?** Each ellipse represents a mission and the radius correlates with the cost of it. However, this graph might be misleading on the *frequency* of the missions as larger swarm height doesn't necessarily mean more missions during the period.
 
-<div class="flex justify-center">
-  <img src="/info-design/raw/2.svg" alt="Visualization 2" width="70%" max-width="1000px" />
-</div>
+{{< photo src="/info-design/raw/2.svg" alt="Visualization 2" width="70%" >}}
 
 ## Parallel Coordinates
 
