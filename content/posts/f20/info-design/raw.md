@@ -16,7 +16,7 @@ This visualization answers the question **How the housing prices correlate with 
 
 ## Beeswarm Plot
 
-This plot tells **How many space missions each country has conducted and how much did them cost?** Each ellipse represents a mission and the radius correlates with the cost of it. However, this graph might be misleading on the *frequency* of the missions as larger swarm height doesn't necessarily mean more missions during the period.
+This plot tells **How many space missions each country has conducted and how much did them cost?** Each ellipse represents a mission and the radius correlates with the cost of it. However, this graph might be misleading on the _frequency_ of the missions as larger swarm height doesn't necessarily mean more missions during the period.
 
 {{< photo src="/info-design/raw/2.webp" alt="Visualization 2" width="70%" >}}
 
@@ -31,8 +31,8 @@ Unlike the former plots, this plot explains, or at least tries to illustrate, a 
 1. [RAWGraphs](https://github.com/densitydesign/raw) (GitHub)
 2. [d3.js](https://github.com/d3/d3) (GitHub)
 3. [Kaggle](https://www.kaggle.com/) (Owned by Alphabet Inc.)
-    - [Housing price in Beijing](https://www.kaggle.com/ruiqurm/lianjia)
-    - [All Space Missions from 1957](https://www.kaggle.com/agirlcoding/all-space-missions-from-1957)
-    - [Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+   - [Housing price in Beijing](https://www.kaggle.com/ruiqurm/lianjia)
+   - [All Space Missions from 1957](https://www.kaggle.com/agirlcoding/all-space-missions-from-1957)
+   - [Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 
-*This page contains WebP images that are not supported by browsers including Safari 13.*
+_This page contains WebP images that are not supported by browsers including Safari 13._

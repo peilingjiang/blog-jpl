@@ -6,7 +6,7 @@ type: posts
 bookToc: true
 ---
 
-This week, we try to use Reality Composer to design and prototype for experiences in day-to-day activities.
+This week, we try to use Reality Composer to design and prototype for experiences in day-to-day activities. _This page contains WebP images that are not supported by browsers including Safari 13._
 
 ## RRR
 
