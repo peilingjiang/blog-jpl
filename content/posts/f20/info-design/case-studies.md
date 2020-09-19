@@ -44,4 +44,3 @@ Essentially, it's _just_ a scatter plot, while with 3D modeling (with details in
 1. [Self-driving cars: Who to save, who to sacrifice?](https://ici.radio-canada.ca/info/2019/voitures-autonomes-dilemme-tramway/index-en.html)
 2. [Satellite Photos of Japan, Before and After the Quake and Tsunami](http://archive.nytimes.com/www.nytimes.com/interactive/2011/03/13/world/asia/satellite-photos-japan-before-and-after-tsunami.html?ref=asia)
 3. [One Race, Every Medalist Ever](http://archive.nytimes.com/www.nytimes.com/interactive/2012/08/05/sports/olympics/the-100-meter-dash-one-race-every-medalist-ever.html?ref=olympics)
-
