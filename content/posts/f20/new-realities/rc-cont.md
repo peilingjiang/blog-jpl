@@ -20,7 +20,7 @@ Shopping is fun, while shopping groceries can be frustrating (even online with m
 
 ![Possible Interactions](/new-realities/rc-cont/status.webp)
 
-The interaction can be divided into two parts: augmented and normal. The **augmented labels** tell the user the purchasing (or other) states of the objects and act as **_entry points_** for further interactions. They can be divided into 4 stages: **Recently bought** labels and **Bought a while ago** labels tell you when you bought the item and you can quickly re-buy with a click, **Not recognized** labels enable you to search and add the item into the database so that you can interact with it as the recorded ones, **Just bought** labels tell you how long you need to wait for an item you just ordered. The text is extremely simplified for a comfort AR experience.
+The interaction can be divided into two parts: augmented and normal. The **augmented labels** tell the user the purchasing (or other) states of the objects and act as **_entry points_** for further interactions. Here the "re-buy" status can be divided into 4 stages: **Recently bought** labels and **Bought a while ago** labels tell you when you bought the item and you can quickly re-buy with a click, **Not recognized** labels enable you to search and add the item into the database so that you can interact with it as the recorded ones, **Just bought** labels tell you how long you need to wait for an item you just ordered. The text is simplified for a comfort AR experience.
 
 ### Prototype
 
@@ -34,7 +34,7 @@ The draft video shows a simple mockup of the experience. This prototype uses bot
 
 Screen Extended provides an external display area, virtually, for the monitor to help users concentrate on the main task while accessing more content privately. With AR glasses (e.g. Apple Glasses,) users will be able to view the content seamlessly and interact with it using mouse or pointer, as the AR content has been integrated into the original OS.
 
-One of the main challenges for real-world development would be the detection of the screen area. Here I can just use a screenshot as the image anchor, but any change made to the screen could break the setup. It might require _marking points_ around the monitor or displaying characteristic content around the screen to help detection.
+One of the main challenges for real-world development would be the detection of the screen area. Here I can simply use a screenshot as the image anchor, but any change made to the screen could break the setup. It might require _marking points_ around the monitor or displaying characteristic content around the screen to help detection.
 
 ### Prototype
 
