@@ -17,7 +17,7 @@ For the first question, I modeled a single sheet of individual mesh surfaces con
 
 ![Question 1 Image](/new-realities/ar-assets/1.webp)
 
-For the second question, I played with two different scenarios: one smaller object ~~traveling~~ trying to travel through another one, and the collision of objects with curved surfaces. I recorded the simulation with different collision type settings of the objects - Box, Capsule, Sphere, while it seems none of them works perfectly for complex objects, as they don't treat the models as they originally are, but simplistic bounding geometries for assumably for better performance.
+For the second question, I played with two different scenarios: one smaller object ~~traveling~~ trying to travel through another one, and the collision of objects with curved surfaces. I recorded the simulation with different collision type settings of the objects - Box, Capsule, Sphere, while it seems none of them works perfectly for complex objects, as they don't treat the models as they originally are, but simplistic bounding geometries assumably for better performance.
 
 ![Question 2 GIF](/new-realities/ar-assets/2.gif)
 ![Question 2 GIF](/new-realities/ar-assets/3.gif)
