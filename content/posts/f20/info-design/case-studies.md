@@ -51,6 +51,10 @@ Source: CNN (The US has 4% of the world's population but 25% of its coronavirus 
 
 ![Illustration](/info-design/case-studies/4-25.jpg)
 
+This approach might confuse readers as the 3D extrusion distracts from versus reinforces the message. Eyes start to read the wedge extrusion and the unique shape of the blue wedge instead of focusing on the comparison of the two wedges.
+
+![Illustration 2](/info-design/case-studies/4-25-2.jpg)
+
 ### Personalizing Climate Change
 
 {{< hint >}}
