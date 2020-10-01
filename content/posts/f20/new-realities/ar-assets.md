@@ -21,3 +21,11 @@ For the second question, I played with two different scenarios: one smaller obje
 
 ![Question 2 GIF](/new-realities/ar-assets/2.gif)
 ![Question 2 GIF](/new-realities/ar-assets/3.gif)
+
+## Two
+
+For the forth week, we practiced texturing and simple APP interactivity with ARKit. I used the cover of Imagine Dragon's [Evolve](https://en.wikipedia.org/wiki/Evolve_(Imagine_Dragons_album)) as the base color and modified the metallicity and roughness of the surface to reflect the genre and style of the music. Some mud and dirts textures were also added on top of the base ones.
+
+![Texture Process](/new-realities/ar-assets/texture.gif)
+
+{{< video src="/new-realities/ar-assets/ar4-mp4.mp4" width="40%" >}}
