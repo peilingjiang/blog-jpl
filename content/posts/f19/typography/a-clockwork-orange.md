@@ -1,5 +1,4 @@
 ---
-bookCollapseSection: true
 author: "Peiling Jiang"
 date: "2019-11-08"
 title: A Clockwork Orange
