@@ -3,6 +3,10 @@ body {
     PingFangSC, PingFangTC, "Microsoft YaHei", Helvatica Neue, Sans-serif;
 }
 
+loadingdiv #p5_loading {
+  display: none;
+}
+
 .book-brand {
   font-weight: 700;
   // margin-bottom: $padding-16 * 2;
