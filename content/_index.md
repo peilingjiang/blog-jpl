@@ -29,6 +29,6 @@ bookToc: false
   }
 </script>
 
-**JPL is 江沛嶺, and 江沛嶺 is Peiling Jiang.** Peiling is a media arts and design student at NYU Tisch School of the Arts. With a background of product design, he's practices include computational design, HCI, user research, and creative coding.
+**JPL is 江沛嶺, and 江沛嶺 is Peiling Jiang.** Peiling studies Interactive Media Arts and Psychology at NYU Tisch School of the Arts and College of Arts and Sciences. With a background of product design, his practices include computational design, human-computer interaction, and computational cognitive modeling.
 
-🙆‍♂️ More information will be updated soon. Love Qingqing.
+🙆‍♂️ More information will be updated soon.
