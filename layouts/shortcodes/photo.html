@@ -1,8 +1,9 @@
 <div class="flex justify-center photo-shortcode">
-  <img
-    src="{{ .Get "src" }}"
-    alt="{{ .Get "alt" }}"
-    width="{{ .Get "width" }}"
-    style="height: auto"
-  />
+  <figure style="text-align: center;">
+    <img src="{{ .Get "src" }}" id="{{ .Get "id" }}" alt="{{ .Get "alt" }}"
+    width="{{ .Get "width" }}" style="height: auto" />
+    {{ if .Get "figcaption" }}
+    <figcaption aria-hidden="true" style="text-align: left !important;">{{ .Get "figcaption" }}</figcaption>
+    {{ end }}
+  </figure>
 </div>
