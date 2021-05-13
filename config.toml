@@ -19,8 +19,8 @@ pygmentsCodeFences = true
       unsafe = true
 
 [[menu.after]]
-  name = "b5 🚧"
-  url = "https://b5-dev.netlify.app"
+  name = "b5"
+  url = "https://b5editor.app"
   weight = 1
 
 [[menu.after]]
