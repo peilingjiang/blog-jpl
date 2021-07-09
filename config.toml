@@ -2,7 +2,7 @@ baseURL = 'https://blog.jpl.design'
 title = 'JPL BLOG'
 theme = 'book'
 disableKinds = ['taxonomy', 'taxonomyTerm']
-googleAnalytics = "UA-133943899-2"
+# googleAnalytics = "G-SS84Y704X6"
 # themesDir = '../..'
 
 # Book configuration
@@ -24,7 +24,7 @@ pygmentsCodeFences = true
   weight = 1
 
 [[menu.after]]
-  name = "Portfolio 🚧"
+  name = "Portfolio"
   url = "https://www.jpl.design"
   weight = 2
 
